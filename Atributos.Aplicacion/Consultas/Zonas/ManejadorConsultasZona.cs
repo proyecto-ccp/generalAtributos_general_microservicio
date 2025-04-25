@@ -1,6 +1,7 @@
 ﻿using Atributos.Aplicacion.Dto.Zonas;
 using Atributos.Aplicacion.Enum;
 using Atributos.Dominio.Entidades;
+using Atributos.Dominio.Servicios.Ciudades;
 using Atributos.Dominio.Servicios.Zonas;
 using AutoMapper;
 using System.Net;
@@ -12,12 +13,14 @@ namespace Atributos.Aplicacion.Consultas.Zonas
         private readonly ObtenerZona _obtenerZona;
         private readonly ListadoZonas _listadoZonas;
         private readonly ListadoZonasPorCiudad _listadoZonasPorCiudad;
+        private readonly ObtenerCiudad _obtenerCiudad;
         private readonly IMapper _mapper;
-        public ManejadorConsultasZona(ObtenerZona obtenerZona, ListadoZonas listadoZonas, ListadoZonasPorCiudad listadoZonasPorCiudad, IMapper mapper)
+        public ManejadorConsultasZona(ObtenerZona obtenerZona, ListadoZonas listadoZonas, ListadoZonasPorCiudad listadoZonasPorCiudad, ObtenerCiudad obtenerCiudad, IMapper mapper)
         {
             _obtenerZona = obtenerZona;
             _listadoZonas = listadoZonas;
             _listadoZonasPorCiudad = listadoZonasPorCiudad;
+            _obtenerCiudad = obtenerCiudad;
             _mapper = mapper;
         }
 
@@ -36,6 +39,8 @@ namespace Atributos.Aplicacion.Consultas.Zonas
                 }
                 else
                 {
+                    var ciudad = await _obtenerCiudad.ObtenerCiudadPorId(Zona.IdCiudad);
+                    Zona.Ciudad = ciudad.Nombre;
                     ZonaOut.Resultado = Resultado.Exitoso;
                     ZonaOut.Mensaje = "Zona encontrada";
                     ZonaOut.Status = HttpStatusCode.OK;

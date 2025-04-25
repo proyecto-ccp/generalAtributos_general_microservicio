@@ -3,15 +3,7 @@
   "WorkspaceRootPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\ServicioAtributos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14B19C77-AE5E-4B9A-97DD-04311800C9BB}|ServicioAtributos.csproj|d:\\edward romero\\documents\\miso\\proyecto final ii\\generalatributos_general_microservicio\\servicioatributos\\controllers\\zonacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B19C77-AE5E-4B9A-97DD-04311800C9BB}|ServicioAtributos.csproj|solutionrelative:controllers\\zonacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14B19C77-AE5E-4B9A-97DD-04311800C9BB}|ServicioAtributos.csproj|d:\\edward romero\\documents\\miso\\proyecto final ii\\generalatributos_general_microservicio\\servicioatributos\\controllers\\tipodocumentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B19C77-AE5E-4B9A-97DD-04311800C9BB}|ServicioAtributos.csproj|solutionrelative:controllers\\tipodocumentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8311C1C7-1E94-4C40-BDF6-E1A14FD42C00}|..\\Atributos.Dominio\\Atributos.Dominio.csproj|d:\\edward romero\\documents\\miso\\proyecto final ii\\generalatributos_general_microservicio\\atributos.dominio\\entidades\\tipodocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB2A4EC7-82CF-4428-B1E9-F835F7062FA4}|..\\Atributos.Aplicacion\\Atributos.Aplicacion.csproj|d:\\edward romero\\documents\\miso\\proyecto final ii\\generalatributos_general_microservicio\\atributos.aplicacion\\consultas\\zonas\\manejadorconsultaszona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,40 +22,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ZonaController.cs",
-              "DocumentMoniker": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\ServicioAtributos\\Controllers\\ZonaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ZonaController.cs",
-              "ToolTip": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\ServicioAtributos\\Controllers\\ZonaController.cs",
-              "RelativeToolTip": "Controllers\\ZonaController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAWwDMAAAAQAAAAAAAAAA==",
+              "Title": "ManejadorConsultasZona.cs",
+              "DocumentMoniker": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Consultas\\Zonas\\ManejadorConsultasZona.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Aplicacion\\Consultas\\Zonas\\ManejadorConsultasZona.cs",
+              "ToolTip": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Consultas\\Zonas\\ManejadorConsultasZona.cs",
+              "RelativeToolTip": "..\\Atributos.Aplicacion\\Consultas\\Zonas\\ManejadorConsultasZona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T06:41:42.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TipoDocumentoController.cs",
-              "DocumentMoniker": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\ServicioAtributos\\Controllers\\TipoDocumentoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TipoDocumentoController.cs",
-              "ToolTip": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\ServicioAtributos\\Controllers\\TipoDocumentoController.cs",
-              "RelativeToolTip": "Controllers\\TipoDocumentoController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAWwB0AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T06:41:42.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TipoDocumento.cs",
-              "DocumentMoniker": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\TipoDocumento.cs",
-              "RelativeDocumentMoniker": "..\\Atributos.Dominio\\Entidades\\TipoDocumento.cs",
-              "ToolTip": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\TipoDocumento.cs",
-              "RelativeToolTip": "..\\Atributos.Dominio\\Entidades\\TipoDocumento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T06:41:11.772Z",
+              "WhenOpened": "2025-04-25T21:55:26.904Z",
               "EditorCaption": ""
             }
           ]

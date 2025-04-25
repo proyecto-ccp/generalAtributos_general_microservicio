@@ -7,7 +7,6 @@
         public string? Ciudad { get; set; }
         public string Nombre { get; set; }
         public string Limites { get; set; }
-
     }
 
     public class ZonaOut : BaseOut

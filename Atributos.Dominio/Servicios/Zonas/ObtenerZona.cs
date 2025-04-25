@@ -1,5 +1,6 @@
 ﻿using Atributos.Dominio.Entidades;
 using Atributos.Dominio.Puertos.Repositorios;
+using Atributos.Dominio.Servicios.Ciudades;
 
 namespace Atributos.Dominio.Servicios.Zonas
 {
