@@ -7,13 +7,13 @@ using System.Net;
 
 namespace Atributos.Aplicacion.Consultas.Zonas
 {
-    public class ManejadorConsultas: IConsultasZonas
+    public class ManejadorConsultasZona: IConsultasZonas
     {
         private readonly ObtenerZona _obtenerZona;
         private readonly ListadoZonas _listadoZonas;
         private readonly ListadoZonasPorCiudad _listadoZonasPorCiudad;
         private readonly IMapper _mapper;
-        public ManejadorConsultas(ObtenerZona obtenerZona, ListadoZonas listadoZonas, ListadoZonasPorCiudad listadoZonasPorCiudad, IMapper mapper)
+        public ManejadorConsultasZona(ObtenerZona obtenerZona, ListadoZonas listadoZonas, ListadoZonasPorCiudad listadoZonasPorCiudad, IMapper mapper)
         {
             _obtenerZona = obtenerZona;
             _listadoZonas = listadoZonas;
@@ -21,7 +21,7 @@ namespace Atributos.Aplicacion.Consultas.Zonas
             _mapper = mapper;
         }
 
-        public async Task<ZonaOut> ObtenerZonaPorId(int id)
+        public async Task<ZonaOut> ObtenerZonaPorId(Guid id)
         {
             ZonaOut ZonaOut = new();
             try

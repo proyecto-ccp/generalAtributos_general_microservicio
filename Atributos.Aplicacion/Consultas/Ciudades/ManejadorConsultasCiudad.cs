@@ -6,14 +6,14 @@ using System.Net;
 
 namespace Atributos.Aplicacion.Consultas.Ciudades
 {
-    public class ManejadorConsultas : IConsultasCiudades
+    public class ManejadorConsultasCiudad : IConsultasCiudades
     {
         private readonly ObtenerCiudad _obtenerCiudades;
         private readonly ListadoCiudades _listadoCiudades;
         private readonly ListadoCiudadesPorRegion _listadoCiudadesPorRegion;
         private readonly IMapper _mapper;
 
-        public ManejadorConsultas(ObtenerCiudad obtenerCiudades, ListadoCiudades listadoCiudades, ListadoCiudadesPorRegion listadoCiudadesPorRegion, IMapper mapper)
+        public ManejadorConsultasCiudad(ObtenerCiudad obtenerCiudades, ListadoCiudades listadoCiudades, ListadoCiudadesPorRegion listadoCiudadesPorRegion, IMapper mapper)
         {
             _obtenerCiudades = obtenerCiudades;
             _listadoCiudades = listadoCiudades;

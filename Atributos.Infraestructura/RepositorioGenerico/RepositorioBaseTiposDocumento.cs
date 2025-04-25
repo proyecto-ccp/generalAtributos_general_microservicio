@@ -3,9 +3,8 @@ using Atributos.Dominio.Entidades;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Atributos.Infraestructura.Repositorios.TiposDocumento;
-using Atributos.Infraestructura.RepositorioGenerico;
 
-namespace Clientes.Infraestructura.RepositorioGenerico
+namespace Atributos.Infraestructura.RepositorioGenerico
 {
     public class RepositorioBaseTiposDocumento<T> : IRepositorioBase<T> where T : EntidadBase
     {

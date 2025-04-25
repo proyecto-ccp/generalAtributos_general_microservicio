@@ -1,0 +1,299 @@
+[
+  {
+    "ContainingType": "ServicioAtributos.Controllers.CiudadController",
+    "Method": "ObtenerCliente",
+    "RelativePath": "api/Ciudad/ObtenerCiudad/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Atributos.Aplicacion.Dto.Ciudades.CiudadOut",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServicioAtributos.Controllers.CiudadController",
+    "Method": "ObtenerCiudades",
+    "RelativePath": "api/Ciudad/ObtenerCiudades",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Atributos.Aplicacion.Dto.Ciudades.CiudadOutList",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServicioAtributos.Controllers.CiudadController",
+    "Method": "ObtenerCiudadesPorRegion",
+    "RelativePath": "api/Ciudad/ObtenerCiudadesPorRegion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRegion",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Atributos.Aplicacion.Dto.Ciudades.CiudadOutList",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServicioAtributos.Controllers.TipoDocumentoController",
+    "Method": "ObtenerTipoDocumentoes",
+    "RelativePath": "api/TipoDocumento/ObtenerTiposDocumentos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Atributos.Aplicacion.Dto.TiposDocumento.TipoDocumentoOutList",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServicioAtributos.Controllers.ZonaController",
+    "Method": "ObtenerCliente",
+    "RelativePath": "api/Zona/ObtenerZona/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Atributos.Aplicacion.Dto.Zonas.ZonaOut",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServicioAtributos.Controllers.ZonaController",
+    "Method": "ObtenerZonaes",
+    "RelativePath": "api/Zona/ObtenerZonas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Atributos.Aplicacion.Dto.Zonas.ZonaOutList",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServicioAtributos.Controllers.ZonaController",
+    "Method": "ObtenerZonaesPorRegion",
+    "RelativePath": "api/Zona/ObtenerZonasPorCiudad",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCiudad",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Atributos.Aplicacion.Dto.Zonas.ZonaOutList",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  }
+]

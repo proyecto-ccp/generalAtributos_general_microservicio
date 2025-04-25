@@ -6,11 +6,11 @@ using System.Net;
 
 namespace Atributos.Aplicacion.Consultas.TiposDocumento
 {
-    public class ManejadorConsultas: IConsultasTiposDocumento
+    public class ManejadorConsultasTipoDocumento: IConsultasTiposDocumento
     {
         private readonly ListadoTiposDocumento _listadoTiposDocumento;
         private readonly IMapper _mapper;
-        public ManejadorConsultas( ListadoTiposDocumento listadoTiposDocumento, IMapper mapper)
+        public ManejadorConsultasTipoDocumento( ListadoTiposDocumento listadoTiposDocumento, IMapper mapper)
         {
             _listadoTiposDocumento = listadoTiposDocumento;
             _mapper = mapper;

@@ -4,9 +4,9 @@ using Atributos.Dominio.Puertos.Repositorios;
 
 namespace Atributos.Dominio.Servicios.Zonas
 {
-    public class ListadoZonas(IZonarepositorio _zonarepositorio)
+    public class ListadoZonas(IZonaRepositorio _zonarepositorio)
     {
-        private readonly IZonarepositorio zonarepositorio = _zonarepositorio;
+        private readonly IZonaRepositorio zonarepositorio = _zonarepositorio;
         public async Task<List<Zona>> Ejecutar()
         {
             var zonas = await zonarepositorio.ObtenerZonas();

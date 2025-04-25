@@ -3,10 +3,10 @@ using Atributos.Dominio.Puertos.Repositorios;
 
 namespace Atributos.Dominio.Servicios.Zonas
 {
-    public class ObtenerZona(IZonarepositorio _zonarepositorio)
+    public class ObtenerZona(IZonaRepositorio _zonarepositorio)
     {
-        private readonly IZonarepositorio zonarepositorio = _zonarepositorio;
-        public async Task<Zona> Ejecutar(int id)
+        private readonly IZonaRepositorio zonarepositorio = _zonarepositorio;
+        public async Task<Zona> Ejecutar(Guid id)
         {
             var zona = await zonarepositorio.ObtenerZonaPorId(id);
 

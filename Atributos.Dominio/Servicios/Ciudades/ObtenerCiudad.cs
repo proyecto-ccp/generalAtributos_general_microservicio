@@ -3,12 +3,12 @@ using Atributos.Dominio.Puertos.Repositorios;
 
 namespace Atributos.Dominio.Servicios.Ciudades
 {
-    public class ObtenerCiudad(ICiudadRepositorio _ciudadRepositorio)
+    public class ObtenerCiudad(ICiudadRepositorio ciudadRepositorio)
     {
-        private readonly ICiudadRepositorio ciudadRepositorio = _ciudadRepositorio;
+        private readonly ICiudadRepositorio _ciudadRepositorio = ciudadRepositorio;
         public async Task<Ciudad> ObtenerCiudadPorId(Guid id)
         {   
-            var ciudad = await ciudadRepositorio.ObtenerCiudadPorId(id);
+            var ciudad = await _ciudadRepositorio.ObtenerCiudadPorId(id);
             
             if (ciudad == null)
             {
