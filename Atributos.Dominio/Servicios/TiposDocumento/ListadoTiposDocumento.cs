@@ -8,7 +8,7 @@ namespace Atributos.Dominio.Servicios.TiposDocumento
         private readonly ITipoDocumentoRepositorio tipoDocumentoRepositorio = _tipoDocumentoRepositorio;
         public async Task<List<TipoDocumento>> ObtenerTiposDocumento()
         {
-            var tiposDocumento = await tipoDocumentoRepositorio.GetTodos();
+            var tiposDocumento = await tipoDocumentoRepositorio.DarListado();
 
             if (tiposDocumento == null || tiposDocumento.Count == 0)
             {

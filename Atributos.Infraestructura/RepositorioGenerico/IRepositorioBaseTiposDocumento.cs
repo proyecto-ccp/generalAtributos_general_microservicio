@@ -2,7 +2,7 @@
 
 namespace Atributos.Infraestructura.RepositorioGenerico
 {
-    public interface IRepositorioBase<T> : IDisposable where T : EntidadBase
+    public interface IRepositorioBaseTiposDocumento<T> : IDisposable where T : EntidadBase
     {
         Task<T> Crear(T entity);
         Task<T> BuscarPorLlave(object ValueKey);

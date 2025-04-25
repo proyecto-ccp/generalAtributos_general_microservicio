@@ -3,26 +3,15 @@
   "WorkspaceRootPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\ServicioAtributos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14B19C77-AE5E-4B9A-97DD-04311800C9BB}|ServicioAtributos.csproj|d:\\edward romero\\documents\\miso\\proyecto final ii\\generalatributos_general_microservicio\\servicioatributos\\controllers\\ciudadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B19C77-AE5E-4B9A-97DD-04311800C9BB}|ServicioAtributos.csproj|solutionrelative:controllers\\ciudadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2262D9BB-47F9-47D8-BD6A-5C0A48AD7598}|..\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj|d:\\edward romero\\documents\\miso\\proyecto final ii\\generalatributos_general_microservicio\\atributos.infraestructura\\repositorios\\ciudades\\ciudadesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8311C1C7-1E94-4C40-BDF6-E1A14FD42C00}|..\\Atributos.Dominio\\Atributos.Dominio.csproj|d:\\edward romero\\documents\\miso\\proyecto final ii\\generalatributos_general_microservicio\\atributos.dominio\\entidades\\ciudad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14B19C77-AE5E-4B9A-97DD-04311800C9BB}|ServicioAtributos.csproj|d:\\edward romero\\documents\\miso\\proyecto final ii\\generalatributos_general_microservicio\\servicioatributos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B19C77-AE5E-4B9A-97DD-04311800C9BB}|ServicioAtributos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14B19C77-AE5E-4B9A-97DD-04311800C9BB}|ServicioAtributos.csproj|d:\\edward romero\\documents\\miso\\proyecto final ii\\generalatributos_general_microservicio\\servicioatributos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{14B19C77-AE5E-4B9A-97DD-04311800C9BB}|ServicioAtributos.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{14B19C77-AE5E-4B9A-97DD-04311800C9BB}|ServicioAtributos.csproj|d:\\edward romero\\documents\\miso\\proyecto final ii\\generalatributos_general_microservicio\\servicioatributos\\controllers\\zonacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14B19C77-AE5E-4B9A-97DD-04311800C9BB}|ServicioAtributos.csproj|solutionrelative:controllers\\zonacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B19C77-AE5E-4B9A-97DD-04311800C9BB}|ServicioAtributos.csproj|d:\\edward romero\\documents\\miso\\proyecto final ii\\generalatributos_general_microservicio\\servicioatributos\\controllers\\tipodocumentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B19C77-AE5E-4B9A-97DD-04311800C9BB}|ServicioAtributos.csproj|solutionrelative:controllers\\tipodocumentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8311C1C7-1E94-4C40-BDF6-E1A14FD42C00}|..\\Atributos.Dominio\\Atributos.Dominio.csproj|d:\\edward romero\\documents\\miso\\proyecto final ii\\generalatributos_general_microservicio\\atributos.dominio\\entidades\\tipodocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,7 +21,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -40,80 +29,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\ServicioAtributos\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\ServicioAtributos\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-25T05:37:28.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\ServicioAtributos\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\ServicioAtributos\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAwwEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T05:34:07.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CiudadController.cs",
-              "DocumentMoniker": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\ServicioAtributos\\Controllers\\CiudadController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CiudadController.cs",
-              "ToolTip": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\ServicioAtributos\\Controllers\\CiudadController.cs",
-              "RelativeToolTip": "Controllers\\CiudadController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAWwCAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T05:33:14.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "ZonaController.cs",
               "DocumentMoniker": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\ServicioAtributos\\Controllers\\ZonaController.cs",
               "RelativeDocumentMoniker": "Controllers\\ZonaController.cs",
               "ToolTip": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\ServicioAtributos\\Controllers\\ZonaController.cs",
               "RelativeToolTip": "Controllers\\ZonaController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAWwB0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAWwDMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T05:33:14.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Ciudad.cs",
-              "DocumentMoniker": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\Ciudad.cs",
-              "RelativeDocumentMoniker": "..\\Atributos.Dominio\\Entidades\\Ciudad.cs",
-              "ToolTip": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\Ciudad.cs",
-              "RelativeToolTip": "..\\Atributos.Dominio\\Entidades\\Ciudad.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T05:31:58.17Z",
+              "WhenOpened": "2025-04-25T06:41:42.613Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CiudadesDBContext.cs",
-              "DocumentMoniker": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Repositorios\\Ciudades\\CiudadesDBContext.cs",
-              "RelativeDocumentMoniker": "..\\Atributos.Infraestructura\\Repositorios\\Ciudades\\CiudadesDBContext.cs",
-              "ToolTip": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Repositorios\\Ciudades\\CiudadesDBContext.cs",
-              "RelativeToolTip": "..\\Atributos.Infraestructura\\Repositorios\\Ciudades\\CiudadesDBContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
+              "Title": "TipoDocumentoController.cs",
+              "DocumentMoniker": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\ServicioAtributos\\Controllers\\TipoDocumentoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TipoDocumentoController.cs",
+              "ToolTip": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\ServicioAtributos\\Controllers\\TipoDocumentoController.cs",
+              "RelativeToolTip": "Controllers\\TipoDocumentoController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAWwB0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T05:31:46.925Z",
+              "WhenOpened": "2025-04-25T06:41:42.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TipoDocumento.cs",
+              "DocumentMoniker": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\TipoDocumento.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Dominio\\Entidades\\TipoDocumento.cs",
+              "ToolTip": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\TipoDocumento.cs",
+              "RelativeToolTip": "..\\Atributos.Dominio\\Entidades\\TipoDocumento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T06:41:11.772Z",
               "EditorCaption": ""
             }
           ]

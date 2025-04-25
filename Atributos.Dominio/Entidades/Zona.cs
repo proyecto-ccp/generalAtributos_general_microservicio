@@ -7,10 +7,10 @@ namespace Atributos.Dominio.Entidades
     public class Zona : EntidadBase
     {
         [Column("idciudad")]
-        public int IdCiudad { get; set; }
+        public Guid IdCiudad { get; set; }
 
         [NotMapped]
-        public string Ciudad { get; set; }
+        public string? Ciudad { get; set; }
 
         [Column("nombre")]
         public string Nombre { get; set; }

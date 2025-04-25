@@ -6,8 +6,8 @@ namespace Atributos.Infraestructura.Repositorios.Zonas
 {
     public class ZonaRepositorio : IZonaRepositorio
     {
-        private readonly IRepositorioBase<Zona> _repositorioBase;
-        public ZonaRepositorio(IRepositorioBase<Zona> repositorioBase)
+        private readonly IRepositorioBaseZonas<Zona> _repositorioBase;
+        public ZonaRepositorio(IRepositorioBaseZonas<Zona> repositorioBase)
         {
             _repositorioBase = repositorioBase;
         }

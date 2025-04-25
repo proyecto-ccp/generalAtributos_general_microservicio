@@ -6,7 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Atributos.Infraestructura.RepositorioGenerico
 {
-    public class RepositorioBaseCiudades<T> : IRepositorioBase<T> where T : EntidadBase
+    public class RepositorioBaseCiudades<T> : IRepositorioBaseCiudades<T> where T : EntidadBase
     {
         private readonly IServiceProvider _serviceProvider;
         public RepositorioBaseCiudades(IServiceProvider serviceProvider)

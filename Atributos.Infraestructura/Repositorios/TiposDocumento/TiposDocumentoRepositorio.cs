@@ -6,8 +6,8 @@ namespace Atributos.Infraestructura.Repositorios.TiposDocumento
 {
     public class TiposDocumentoRepositorio: ITipoDocumentoRepositorio
     {
-        private readonly IRepositorioBase<TipoDocumento> _repositorioBase;
-        public TiposDocumentoRepositorio(IRepositorioBase<TipoDocumento> repositorioBase)
+        private readonly IRepositorioBaseTiposDocumento<TipoDocumento> _repositorioBase;
+        public TiposDocumentoRepositorio(IRepositorioBaseTiposDocumento<TipoDocumento> repositorioBase)
         {
             _repositorioBase = repositorioBase;
         }
@@ -23,11 +23,6 @@ namespace Atributos.Infraestructura.Repositorios.TiposDocumento
         public async Task<List<TipoDocumento>> DarListado()
         {
             return await _repositorioBase.DarListado();
-        }
-
-        public Task<List<TipoDocumento>> GetTodos()
-        {
-            throw new NotImplementedException();
         }
     
     }

@@ -2,9 +2,9 @@
 {
     public class ZonaDto
     {
-        public int Id { get; set; }
-        public int IdCiudad { get; set; }
-        public string Ciudad { get; set; }
+        public Guid Id { get; set; }
+        public Guid IdCiudad { get; set; }
+        public string? Ciudad { get; set; }
         public string Nombre { get; set; }
         public string Limites { get; set; }
 

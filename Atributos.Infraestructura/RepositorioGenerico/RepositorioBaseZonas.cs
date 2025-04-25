@@ -6,7 +6,7 @@ using Atributos.Infraestructura.Repositorios.Zonas;
 
 namespace Atributos.Infraestructura.RepositorioGenerico
 {
-    public class RepositorioBaseZonas<T> : IRepositorioBase<T> where T : EntidadBase
+    public class RepositorioBaseZonas<T> : IRepositorioBaseZonas<T> where T : EntidadBase
     {
         private readonly IServiceProvider _serviceProvider;
         public RepositorioBaseZonas(IServiceProvider serviceProvider)

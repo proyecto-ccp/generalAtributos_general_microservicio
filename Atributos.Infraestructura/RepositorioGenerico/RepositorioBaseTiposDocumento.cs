@@ -6,7 +6,7 @@ using Atributos.Infraestructura.Repositorios.TiposDocumento;
 
 namespace Atributos.Infraestructura.RepositorioGenerico
 {
-    public class RepositorioBaseTiposDocumento<T> : IRepositorioBase<T> where T : EntidadBase
+    public class RepositorioBaseTiposDocumento<T> : IRepositorioBaseTiposDocumento<T> where T : EntidadBase
     {
         private readonly IServiceProvider _serviceProvider;
         public RepositorioBaseTiposDocumento(IServiceProvider serviceProvider)

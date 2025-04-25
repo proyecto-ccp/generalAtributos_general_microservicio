@@ -6,7 +6,7 @@ namespace Atributos.Dominio.Entidades
     [Table("tbl_ciudades")]
     public class Ciudad: EntidadBase
     {
-        [Column("idRegion")]
+        [Column("idregion")]
         public int IdRegion { get; set; }
 
         [Column("poblacion")]

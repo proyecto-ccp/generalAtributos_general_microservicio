@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Atributos.Dominio.Entidades
 {
-    [Table("tbl_tipoDocumento")]
+    [Table("tbl_tipodocumento")]
     public class TipoDocumento : EntidadBase
     {
         [Key]

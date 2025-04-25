@@ -6,8 +6,8 @@ namespace Atributos.Infraestructura.Repositorios.Ciudades
 {
     public class CiudadRepositorio : ICiudadRepositorio
     {
-        private readonly IRepositorioBase<Ciudad> _repositorioBase;
-        public CiudadRepositorio(IRepositorioBase<Ciudad> repositorioBase)
+        private readonly IRepositorioBaseCiudades<Ciudad> _repositorioBase;
+        public CiudadRepositorio(IRepositorioBaseCiudades<Ciudad> repositorioBase)
         {
             _repositorioBase = repositorioBase;
         }
