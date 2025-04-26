@@ -1,21 +1,26 @@
-﻿using Atributos.Aplicacion.Dto.TiposDocumento;
+﻿
+using Atributos.Aplicacion.Dto.TiposDocumento;
 using Atributos.Aplicacion.Enum;
 using Atributos.Dominio.Servicios.TiposDocumento;
 using AutoMapper;
+using MediatR;
 using System.Net;
+
 
 namespace Atributos.Aplicacion.Consultas.TiposDocumento
 {
-    public class ManejadorConsultasTipoDocumento: IConsultasTiposDocumento
+    public class TiposDocumentoHandler : IRequestHandler<TiposDocumentoConsulta, TipoDocumentoOutList>
     {
-        private readonly ListadoTiposDocumento _listadoTiposDocumento;
         private readonly IMapper _mapper;
-        public ManejadorConsultasTipoDocumento( ListadoTiposDocumento listadoTiposDocumento, IMapper mapper)
+        private readonly ListadoTiposDocumento _listarDocumentos;
+
+        public TiposDocumentoHandler(ListadoTiposDocumento listarDocumentos, IMapper mapper) 
         {
-            _listadoTiposDocumento = listadoTiposDocumento;
+            _listarDocumentos = listarDocumentos;
             _mapper = mapper;
         }
-        public async Task<TipoDocumentoOutList> ObtenerTiposDocumento()
+
+        public async Task<TipoDocumentoOutList> Handle(TiposDocumentoConsulta request, CancellationToken cancellationToken)
         {
             TipoDocumentoOutList output = new()
             {
@@ -24,20 +29,20 @@ namespace Atributos.Aplicacion.Consultas.TiposDocumento
 
             try
             {
-                var TipoDocumentos = await _listadoTiposDocumento.ObtenerTiposDocumento();
+                var tiposDocumento = await _listarDocumentos.ObtenerTiposDocumento() ?? [];
 
-                if (TipoDocumentos == null || TipoDocumentos.Count == 0)
+                if (tiposDocumento.Count == 0)
                 {
                     output.Resultado = Resultado.SinRegistros;
-                    output.Mensaje = "No se encontraron Tipos de Documento";
-                    output.Status = HttpStatusCode.NoContent;
+                    output.Mensaje = "Tipos de documento no tiene valores";
+                    output.Status = HttpStatusCode.NotFound;
                 }
                 else
                 {
+                    tiposDocumento.ForEach(documento => output.TiposDocumentos.Add(_mapper.Map<TipoDocumentoDto>(documento)));
                     output.Resultado = Resultado.Exitoso;
-                    output.Mensaje = "Tipos de Documento encontrados";
+                    output.Mensaje = "Consulta exitosa";
                     output.Status = HttpStatusCode.OK;
-                    output.TiposDocumentos = _mapper.Map<List<TipoDocumentoDto>>(TipoDocumentos);
                 }
             }
             catch (Exception ex)
@@ -49,6 +54,5 @@ namespace Atributos.Aplicacion.Consultas.TiposDocumento
 
             return output;
         }
-    
     }
 }

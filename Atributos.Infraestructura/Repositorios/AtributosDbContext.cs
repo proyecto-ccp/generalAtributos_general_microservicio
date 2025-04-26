@@ -16,6 +16,7 @@ namespace Atributos.Infraestructura.Repositorios
         public DbSet<Modelo> Modelos { get; set; }
         public DbSet<Material> Materiales { get; set; }
         public DbSet<Parametro> Parametros { get; set; }
+        public DbSet<TipoDocumento> TiposDocumentos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -26,6 +27,7 @@ namespace Atributos.Infraestructura.Repositorios
             modelBuilder.ApplyConfiguration(new MedidaConfiguracion());
             modelBuilder.ApplyConfiguration(new ModeloConfiguracion());
             modelBuilder.ApplyConfiguration(new ParametroConfiguracion());
+            modelBuilder.ApplyConfiguration(new TipoDocumentoConfiguracion());
         }
     }
 }

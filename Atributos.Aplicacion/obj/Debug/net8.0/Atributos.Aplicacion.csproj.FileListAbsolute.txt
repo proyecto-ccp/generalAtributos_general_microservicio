@@ -14,19 +14,3 @@ D:\Edward Romero\Documents\MISO\Proyecto Final II\generalAtributos_general_micro
 D:\Edward Romero\Documents\MISO\Proyecto Final II\generalAtributos_general_microservicio\Atributos.Aplicacion\obj\Debug\net8.0\refint\Atributos.Aplicacion.dll
 D:\Edward Romero\Documents\MISO\Proyecto Final II\generalAtributos_general_microservicio\Atributos.Aplicacion\obj\Debug\net8.0\Atributos.Aplicacion.pdb
 D:\Edward Romero\Documents\MISO\Proyecto Final II\generalAtributos_general_microservicio\Atributos.Aplicacion\obj\Debug\net8.0\ref\Atributos.Aplicacion.dll
-D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Aplicacion\bin\Debug\net8.0\Atributos.Aplicacion.deps.json
-D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Aplicacion\bin\Debug\net8.0\Atributos.Aplicacion.dll
-D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Aplicacion\bin\Debug\net8.0\Atributos.Aplicacion.pdb
-D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Aplicacion\bin\Debug\net8.0\Atributos.Dominio.dll
-D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Aplicacion\bin\Debug\net8.0\Atributos.Dominio.pdb
-D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Aplicacion\obj\Debug\net8.0\Atributos.Aplicacion.csproj.AssemblyReference.cache
-D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Aplicacion\obj\Debug\net8.0\Atributos.Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
-D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Aplicacion\obj\Debug\net8.0\Atributos.Aplicacion.AssemblyInfoInputs.cache
-D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Aplicacion\obj\Debug\net8.0\Atributos.Aplicacion.AssemblyInfo.cs
-D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Aplicacion\obj\Debug\net8.0\Atributos.Aplicacion.csproj.CoreCompileInputs.cache
-D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Aplicacion\obj\Debug\net8.0\Atributos.Aplicacion.sourcelink.json
-D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Aplicacion\obj\Debug\net8.0\Atributo.56253B3D.Up2Date
-D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Aplicacion\obj\Debug\net8.0\Atributos.Aplicacion.dll
-D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Aplicacion\obj\Debug\net8.0\refint\Atributos.Aplicacion.dll
-D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Aplicacion\obj\Debug\net8.0\Atributos.Aplicacion.pdb
-D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Aplicacion\obj\Debug\net8.0\ref\Atributos.Aplicacion.dll

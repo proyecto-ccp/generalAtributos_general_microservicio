@@ -1,6 +1,9 @@
 ﻿
 using Atributos.Aplicacion.Consultas.AtributosProducto;
+using Atributos.Aplicacion.Consultas.TiposDocumento;
+using Atributos.Aplicacion.Dto;
 using Atributos.Aplicacion.Dto.AtributosProducto;
+using Atributos.Aplicacion.Dto.TiposDocumento;
 using Atributos.Aplicacion.Enum;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -33,18 +36,22 @@ namespace ServicioAtributos.Controllers
         /// ListaProductosOut pendiente
         /// </response>
         [HttpGet]
-        [Route("Categorias")]
+        [Route("Productos/Categorias")]
         [ProducesResponseType(typeof(ListaCategoriaOut), 200)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(typeof(ValidationProblemDetails), 401)]
-        [ProducesResponseType(typeof(ValidationProblemDetails), 500)]
+        [ProducesResponseType(typeof(ProblemDetails), 401)]
+        [ProducesResponseType(typeof(BaseOut), 404)]
+        [ProducesResponseType(typeof(ProblemDetails), 500)]
         public async Task<IActionResult> ListarCategorias()
         {
             var output = await _mediator.Send(new CategoriaConsulta());
 
-            if (output.Resultado != Resultado.Error)
+            if (output.Resultado == Resultado.Exitoso)
             {
                 return Ok(output);
+            }
+            else if (output.Resultado == Resultado.SinRegistros) 
+            {
+                return NotFound( new { output.Resultado, output.Mensaje, output.Status } );
             }
             else
             {
@@ -59,18 +66,22 @@ namespace ServicioAtributos.Controllers
         /// ListaProductosOut pendiente
         /// </response>
         [HttpGet]
-        [Route("Medidas")]
+        [Route("Productos/Medidas")]
         [ProducesResponseType(typeof(ListaMedidasOut), 200)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(typeof(ValidationProblemDetails), 401)]
-        [ProducesResponseType(typeof(ValidationProblemDetails), 500)]
+        [ProducesResponseType(typeof(ProblemDetails), 401)]
+        [ProducesResponseType(typeof(BaseOut), 404)]
+        [ProducesResponseType(typeof(ProblemDetails), 500)]
         public async Task<IActionResult> ListarMedidas()
         {
             var output = await _mediator.Send(new MedidaConsulta());
 
-            if (output.Resultado != Resultado.Error)
+            if (output.Resultado == Resultado.Exitoso)
             {
                 return Ok(output);
+            }
+            else if (output.Resultado == Resultado.SinRegistros)
+            {
+                return NotFound(new { output.Resultado, output.Mensaje, output.Status });
             }
             else
             {
@@ -85,18 +96,22 @@ namespace ServicioAtributos.Controllers
         /// ListaProductosOut pendiente
         /// </response>
         [HttpGet]
-        [Route("Marcas")]
+        [Route("Productos/Marcas")]
         [ProducesResponseType(typeof(ListaMarcaOut), 200)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(typeof(ValidationProblemDetails), 401)]
-        [ProducesResponseType(typeof(ValidationProblemDetails), 500)]
+        [ProducesResponseType(typeof(ProblemDetails), 401)]
+        [ProducesResponseType(typeof(BaseOut), 404)]
+        [ProducesResponseType(typeof(ProblemDetails), 500)]
         public async Task<IActionResult> ListarMarcas()
         {
             var output = await _mediator.Send(new MarcaConsulta());
 
-            if (output.Resultado != Resultado.Error)
+            if (output.Resultado == Resultado.Exitoso)
             {
                 return Ok(output);
+            }
+            else if (output.Resultado == Resultado.SinRegistros)
+            {
+                return NotFound(new { output.Resultado, output.Mensaje, output.Status });
             }
             else
             {
@@ -111,18 +126,22 @@ namespace ServicioAtributos.Controllers
         /// ListaProductosOut pendiente
         /// </response>
         [HttpGet]
-        [Route("Colores")]
+        [Route("Productos/Colores")]
         [ProducesResponseType(typeof(ListaColorOut), 200)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(typeof(ValidationProblemDetails), 401)]
-        [ProducesResponseType(typeof(ValidationProblemDetails), 500)]
+        [ProducesResponseType(typeof(ProblemDetails), 401)]
+        [ProducesResponseType(typeof(BaseOut), 404)]
+        [ProducesResponseType(typeof(ProblemDetails), 500)]
         public async Task<IActionResult> ListarColores()
         {
             var output = await _mediator.Send(new ColorConsulta());
 
-            if (output.Resultado != Resultado.Error)
+            if (output.Resultado == Resultado.Exitoso)
             {
                 return Ok(output);
+            }
+            else if (output.Resultado == Resultado.SinRegistros)
+            {
+                return NotFound(new { output.Resultado, output.Mensaje, output.Status });
             }
             else
             {
@@ -137,18 +156,22 @@ namespace ServicioAtributos.Controllers
         /// ListaProductosOut pendiente
         /// </response>
         [HttpGet]
-        [Route("Modelos")]
+        [Route("Productos/Modelos")]
         [ProducesResponseType(typeof(ListaModelosOut), 200)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(typeof(ValidationProblemDetails), 401)]
-        [ProducesResponseType(typeof(ValidationProblemDetails), 500)]
+        [ProducesResponseType(typeof(ProblemDetails), 401)]
+        [ProducesResponseType(typeof(BaseOut), 404)]
+        [ProducesResponseType(typeof(ProblemDetails), 500)]
         public async Task<IActionResult> ListarModelos()
         {
             var output = await _mediator.Send(new ModeloConsulta());
 
-            if (output.Resultado != Resultado.Error)
+            if (output.Resultado == Resultado.Exitoso)
             {
                 return Ok(output);
+            }
+            else if (output.Resultado == Resultado.SinRegistros)
+            {
+                return NotFound(new { output.Resultado, output.Mensaje, output.Status });
             }
             else
             {
@@ -163,23 +186,55 @@ namespace ServicioAtributos.Controllers
         /// ListaProductosOut pendiente
         /// </response>
         [HttpGet]
-        [Route("Materiales")]
+        [Route("Productos/Materiales")]
         [ProducesResponseType(typeof(ListaMaterialOut), 200)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(typeof(ValidationProblemDetails), 401)]
-        [ProducesResponseType(typeof(ValidationProblemDetails), 500)]
+        [ProducesResponseType(typeof(ProblemDetails), 401)]
+        [ProducesResponseType(typeof(BaseOut), 404)]
+        [ProducesResponseType(typeof(ProblemDetails), 500)]
         public async Task<IActionResult> ListarMateriales()
         {
             var output = await _mediator.Send(new MaterialConsulta());
 
-            if (output.Resultado != Resultado.Error)
+            if (output.Resultado == Resultado.Exitoso)
             {
                 return Ok(output);
+            }
+            else if (output.Resultado == Resultado.SinRegistros)
+            {
+                return NotFound(new { output.Resultado, output.Mensaje, output.Status });
             }
             else
             {
                 return Problem(output.Mensaje, statusCode: (int)output.Status);
             }
+        }
+
+        /// <summary>
+        /// Obtiene la lista de tipos de documentos  
+        /// </summary>
+        [HttpGet]
+        [Route("TiposDocumento")]
+        [ProducesResponseType(typeof(TipoDocumentoOutList), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ProblemDetails), 401)]
+        [ProducesResponseType(typeof(BaseOut), 404)]
+        [ProducesResponseType(typeof(ProblemDetails), 500)]
+        public async Task<IActionResult> ObtenerTiposDocumentos()
+        {
+            var output = await _mediator.Send(new TiposDocumentoConsulta());
+
+            if (output.Resultado == Resultado.Exitoso)
+            {
+                return Ok(output);
+            }
+            else if (output.Resultado == Resultado.SinRegistros)
+            {
+                return NotFound(new { output.Resultado, output.Mensaje, output.Status });
+            }
+            else
+            {
+                return Problem(output.Mensaje, statusCode: (int)output.Status);
+            }
+
         }
     }
 }

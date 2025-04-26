@@ -1,5 +1,4 @@
 using Atributos.Aplicacion.Consultas.Ciudades;
-using Atributos.Aplicacion.Consultas.TiposDocumento;
 using Atributos.Aplicacion.Consultas.Zonas;
 using Atributos.Dominio.Puertos.Repositorios;
 using Atributos.Dominio.Servicios.AtributosProducto;
@@ -10,7 +9,6 @@ using Atributos.Dominio.Servicios.Zonas;
 using Atributos.Infraestructura.RepositorioGenerico;
 using Atributos.Infraestructura.Repositorios;
 using Atributos.Infraestructura.Repositorios.Ciudades;
-using Atributos.Infraestructura.Repositorios.TiposDocumento;
 using Atributos.Infraestructura.Repositorios.Zonas;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
@@ -75,9 +73,12 @@ builder.Services.AddDbContext<AtributosDbContext>(options =>
 builder.Services.AddTransient(typeof(IRepositorioBase<>), typeof(RepositorioBase<>));
 builder.Services.AddTransient<IAtributosProductoRepositorio, AtributosProductoRepositorio>();
 builder.Services.AddTransient<IParametroRepositorio, ParametroRepositorio>();
+builder.Services.AddTransient<ITipoDocumentoRepositorio, TiposDocumentoRepositorio>();
+
 //Capa Dominio - Servicios
 builder.Services.AddTransient<ConsultarAtributos>();
 builder.Services.AddTransient<ConsultarParametros>();
+builder.Services.AddScoped<ListadoTiposDocumento>();
 
 // Ciudades
 builder.Services.AddDbContext<CiudadesDBContext>(options =>
@@ -101,14 +102,10 @@ builder.Services.AddScoped<ObtenerZona>();
 builder.Services.AddScoped<ListadoZonas>();
 builder.Services.AddScoped<ListadoZonasPorCiudad>();
 
-// TiposDocumento
-builder.Services.AddDbContext<TiposDocumentoDBContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("TiposDocumentoDBContext")));
+
 // Registrar repositorios específicos
-builder.Services.AddTransient(typeof(IRepositorioBaseTiposDocumento<>), typeof(RepositorioBaseTiposDocumento<>));
-builder.Services.AddTransient<ITipoDocumentoRepositorio, TiposDocumentoRepositorio>();
-builder.Services.AddScoped<IConsultasTiposDocumento, ManejadorConsultasTipoDocumento>();
-builder.Services.AddScoped<ListadoTiposDocumento>();
+
+
 
 var app = builder.Build();
 

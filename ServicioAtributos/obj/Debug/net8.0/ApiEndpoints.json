@@ -2,7 +2,7 @@
   {
     "ContainingType": "ServicioAtributos.Controllers.AtributosController",
     "Method": "ListarCategorias",
-    "RelativePath": "api/Atributos/Categorias",
+    "RelativePath": "api/Atributos/Productos/Categorias",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -20,17 +20,17 @@
         "MediaTypes": [
           "application/json"
         ],
-        "StatusCode": 400
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
-        "MediaTypes": [
-          "application/json"
-        ],
         "StatusCode": 401
       },
       {
-        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "Type": "Atributos.Aplicacion.Dto.BaseOut",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
         "MediaTypes": [
           "application/json"
         ],
@@ -41,7 +41,7 @@
   {
     "ContainingType": "ServicioAtributos.Controllers.AtributosController",
     "Method": "ListarColores",
-    "RelativePath": "api/Atributos/Colores",
+    "RelativePath": "api/Atributos/Productos/Colores",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -59,17 +59,17 @@
         "MediaTypes": [
           "application/json"
         ],
-        "StatusCode": 400
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
-        "MediaTypes": [
-          "application/json"
-        ],
         "StatusCode": 401
       },
       {
-        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "Type": "Atributos.Aplicacion.Dto.BaseOut",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
         "MediaTypes": [
           "application/json"
         ],
@@ -80,7 +80,7 @@
   {
     "ContainingType": "ServicioAtributos.Controllers.AtributosController",
     "Method": "ListarMarcas",
-    "RelativePath": "api/Atributos/Marcas",
+    "RelativePath": "api/Atributos/Productos/Marcas",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -98,17 +98,17 @@
         "MediaTypes": [
           "application/json"
         ],
-        "StatusCode": 400
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
-        "MediaTypes": [
-          "application/json"
-        ],
         "StatusCode": 401
       },
       {
-        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "Type": "Atributos.Aplicacion.Dto.BaseOut",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
         "MediaTypes": [
           "application/json"
         ],
@@ -119,7 +119,7 @@
   {
     "ContainingType": "ServicioAtributos.Controllers.AtributosController",
     "Method": "ListarMateriales",
-    "RelativePath": "api/Atributos/Materiales",
+    "RelativePath": "api/Atributos/Productos/Materiales",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -137,17 +137,17 @@
         "MediaTypes": [
           "application/json"
         ],
-        "StatusCode": 400
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
-        "MediaTypes": [
-          "application/json"
-        ],
         "StatusCode": 401
       },
       {
-        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "Type": "Atributos.Aplicacion.Dto.BaseOut",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
         "MediaTypes": [
           "application/json"
         ],
@@ -158,7 +158,7 @@
   {
     "ContainingType": "ServicioAtributos.Controllers.AtributosController",
     "Method": "ListarMedidas",
-    "RelativePath": "api/Atributos/Medidas",
+    "RelativePath": "api/Atributos/Productos/Medidas",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -176,17 +176,17 @@
         "MediaTypes": [
           "application/json"
         ],
-        "StatusCode": 400
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
-        "MediaTypes": [
-          "application/json"
-        ],
         "StatusCode": 401
       },
       {
-        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "Type": "Atributos.Aplicacion.Dto.BaseOut",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
         "MediaTypes": [
           "application/json"
         ],
@@ -197,7 +197,7 @@
   {
     "ContainingType": "ServicioAtributos.Controllers.AtributosController",
     "Method": "ListarModelos",
-    "RelativePath": "api/Atributos/Modelos",
+    "RelativePath": "api/Atributos/Productos/Modelos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -215,17 +215,56 @@
         "MediaTypes": [
           "application/json"
         ],
-        "StatusCode": 400
+        "StatusCode": 401
       },
       {
-        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "Type": "Atributos.Aplicacion.Dto.BaseOut",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServicioAtributos.Controllers.AtributosController",
+    "Method": "ObtenerTiposDocumentos",
+    "RelativePath": "api/Atributos/TiposDocumento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Atributos.Aplicacion.Dto.TiposDocumento.TipoDocumentoOutList",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
         "MediaTypes": [
           "application/json"
         ],
         "StatusCode": 401
       },
       {
-        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
+        "Type": "Atributos.Aplicacion.Dto.BaseOut",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
         "MediaTypes": [
           "application/json"
         ],
@@ -334,45 +373,6 @@
     "ReturnTypes": [
       {
         "Type": "Atributos.Aplicacion.Dto.Ciudades.CiudadOutList",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 200
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 400
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 401
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ValidationProblemDetails",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 500
-      }
-    ]
-  },
-  {
-    "ContainingType": "ServicioAtributos.Controllers.TipoDocumentoController",
-    "Method": "ObtenerTipoDocumentoes",
-    "RelativePath": "api/TipoDocumento/ObtenerTiposDocumentos",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "Atributos.Aplicacion.Dto.TiposDocumento.TipoDocumentoOutList",
         "MediaTypes": [
           "application/json"
         ],

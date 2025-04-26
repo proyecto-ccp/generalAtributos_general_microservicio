@@ -6,7 +6,7 @@
     "version": "V.1.0.1"
   },
   "paths": {
-    "/api/Atributos/Categorias": {
+    "/api/Atributos/Productos/Categorias": {
       "get": {
         "tags": [
           "Atributos"
@@ -23,8 +23,8 @@
               }
             }
           },
-          "400": {
-            "description": "Bad Request",
+          "401": {
+            "description": "Unauthorized",
             "content": {
               "application/json": {
                 "schema": {
@@ -33,12 +33,12 @@
               }
             }
           },
-          "401": {
-            "description": "Unauthorized",
+          "404": {
+            "description": "Not Found",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ValidationProblemDetails"
+                  "$ref": "#/components/schemas/BaseOut"
                 }
               }
             }
@@ -48,7 +48,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ValidationProblemDetails"
+                  "$ref": "#/components/schemas/ProblemDetails"
                 }
               }
             }
@@ -56,7 +56,7 @@
         }
       }
     },
-    "/api/Atributos/Medidas": {
+    "/api/Atributos/Productos/Medidas": {
       "get": {
         "tags": [
           "Atributos"
@@ -73,8 +73,8 @@
               }
             }
           },
-          "400": {
-            "description": "Bad Request",
+          "401": {
+            "description": "Unauthorized",
             "content": {
               "application/json": {
                 "schema": {
@@ -83,12 +83,12 @@
               }
             }
           },
-          "401": {
-            "description": "Unauthorized",
+          "404": {
+            "description": "Not Found",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ValidationProblemDetails"
+                  "$ref": "#/components/schemas/BaseOut"
                 }
               }
             }
@@ -98,7 +98,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ValidationProblemDetails"
+                  "$ref": "#/components/schemas/ProblemDetails"
                 }
               }
             }
@@ -106,7 +106,7 @@
         }
       }
     },
-    "/api/Atributos/Marcas": {
+    "/api/Atributos/Productos/Marcas": {
       "get": {
         "tags": [
           "Atributos"
@@ -123,8 +123,8 @@
               }
             }
           },
-          "400": {
-            "description": "Bad Request",
+          "401": {
+            "description": "Unauthorized",
             "content": {
               "application/json": {
                 "schema": {
@@ -133,12 +133,12 @@
               }
             }
           },
-          "401": {
-            "description": "Unauthorized",
+          "404": {
+            "description": "Not Found",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ValidationProblemDetails"
+                  "$ref": "#/components/schemas/BaseOut"
                 }
               }
             }
@@ -148,7 +148,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ValidationProblemDetails"
+                  "$ref": "#/components/schemas/ProblemDetails"
                 }
               }
             }
@@ -156,7 +156,7 @@
         }
       }
     },
-    "/api/Atributos/Colores": {
+    "/api/Atributos/Productos/Colores": {
       "get": {
         "tags": [
           "Atributos"
@@ -173,8 +173,8 @@
               }
             }
           },
-          "400": {
-            "description": "Bad Request",
+          "401": {
+            "description": "Unauthorized",
             "content": {
               "application/json": {
                 "schema": {
@@ -183,12 +183,12 @@
               }
             }
           },
-          "401": {
-            "description": "Unauthorized",
+          "404": {
+            "description": "Not Found",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ValidationProblemDetails"
+                  "$ref": "#/components/schemas/BaseOut"
                 }
               }
             }
@@ -198,7 +198,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ValidationProblemDetails"
+                  "$ref": "#/components/schemas/ProblemDetails"
                 }
               }
             }
@@ -206,7 +206,7 @@
         }
       }
     },
-    "/api/Atributos/Modelos": {
+    "/api/Atributos/Productos/Modelos": {
       "get": {
         "tags": [
           "Atributos"
@@ -223,8 +223,8 @@
               }
             }
           },
-          "400": {
-            "description": "Bad Request",
+          "401": {
+            "description": "Unauthorized",
             "content": {
               "application/json": {
                 "schema": {
@@ -233,12 +233,12 @@
               }
             }
           },
-          "401": {
-            "description": "Unauthorized",
+          "404": {
+            "description": "Not Found",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ValidationProblemDetails"
+                  "$ref": "#/components/schemas/BaseOut"
                 }
               }
             }
@@ -248,7 +248,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ValidationProblemDetails"
+                  "$ref": "#/components/schemas/ProblemDetails"
                 }
               }
             }
@@ -256,7 +256,7 @@
         }
       }
     },
-    "/api/Atributos/Materiales": {
+    "/api/Atributos/Productos/Materiales": {
       "get": {
         "tags": [
           "Atributos"
@@ -273,8 +273,8 @@
               }
             }
           },
-          "400": {
-            "description": "Bad Request",
+          "401": {
+            "description": "Unauthorized",
             "content": {
               "application/json": {
                 "schema": {
@@ -283,12 +283,12 @@
               }
             }
           },
-          "401": {
-            "description": "Unauthorized",
+          "404": {
+            "description": "Not Found",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ValidationProblemDetails"
+                  "$ref": "#/components/schemas/BaseOut"
                 }
               }
             }
@@ -298,7 +298,57 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/ValidationProblemDetails"
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Atributos/TiposDocumento": {
+      "get": {
+        "tags": [
+          "Atributos"
+        ],
+        "summary": "Obtiene la lista de tipos de documentos",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TipoDocumentoOutList"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseOut"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
                 }
               }
             }
@@ -437,55 +487,6 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/CiudadOut"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad Request",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ValidationProblemDetails"
-                }
-              }
-            }
-          },
-          "500": {
-            "description": "Internal Server Error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ValidationProblemDetails"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/TipoDocumento/ObtenerTiposDocumentos": {
-      "get": {
-        "tags": [
-          "TipoDocumento"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/TipoDocumentoOutList"
                 }
               }
             }
@@ -694,6 +695,22 @@
   },
   "components": {
     "schemas": {
+      "BaseOut": {
+        "type": "object",
+        "properties": {
+          "resultado": {
+            "$ref": "#/components/schemas/Resultado"
+          },
+          "mensaje": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "$ref": "#/components/schemas/HttpStatusCode"
+          }
+        },
+        "additionalProperties": false
+      },
       "CategoriaDto": {
         "type": "object",
         "properties": {

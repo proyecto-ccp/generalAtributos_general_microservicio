@@ -34,7 +34,7 @@ namespace Atributos.Aplicacion.Consultas.AtributosProducto
                 {
                     output.Resultado = Resultado.SinRegistros;
                     output.Mensaje = "El atributo materiales no tiene valores";
-                    output.Status = HttpStatusCode.NoContent;
+                    output.Status = HttpStatusCode.NotFound;
                 }
                 else
                 {
