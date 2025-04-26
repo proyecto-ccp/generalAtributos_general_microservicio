@@ -1,19 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿
+using System.Diagnostics.CodeAnalysis;
 
 namespace Atributos.Dominio.Entidades
 {
-    [Table("tbl_parametros")]
+    [ExcludeFromCodeCoverage]
     public class Parametro
     {
-        [Key]
-        [Column("id")]
         public string Id { get; set; }
-
-        [Column("valor")]
         public string Valor { get; set; }
-
-        [Column("descripcion")]
         public string Descripcion { get; set; }
     }
 }
