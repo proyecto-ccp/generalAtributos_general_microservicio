@@ -746,23 +746,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\edw_5\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\57312\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj",
+      "projectUniqueName": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj",
       "projectName": "Atributos.Infraestructura",
-      "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj",
-      "packagesPath": "C:\\Users\\edw_5\\.nuget\\packages\\",
-      "outputPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\obj\\",
+      "projectPath": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj",
+      "packagesPath": "C:\\Users\\57312\\.nuget\\packages\\",
+      "outputPath": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\edw_5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\57312\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -771,15 +771,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\Atributos.Dominio\\Atributos.Dominio.csproj": {
-              "projectPath": "D:\\Edward Romero\\Documents\\MISO\\Proyecto Final II\\generalAtributos_general_microservicio\\Atributos.Dominio\\Atributos.Dominio.csproj"
+            "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Atributos.Dominio.csproj": {
+              "projectPath": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Atributos.Dominio.csproj"
             }
           }
         }
