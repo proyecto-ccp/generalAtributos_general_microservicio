@@ -2,9 +2,11 @@
 using Atributos.Dominio.Entidades;
 using Atributos.Infraestructura.Configuraciones;
 using Microsoft.EntityFrameworkCore;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Atributos.Infraestructura.Repositorios
 {
+    [ExcludeFromCodeCoverage]
     public class AtributosDbContext : DbContext
     {
         public AtributosDbContext(DbContextOptions<AtributosDbContext> options) : base(options) { }
