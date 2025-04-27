@@ -1,6 +1,9 @@
 ﻿
+using System.Diagnostics.CodeAnalysis;
+
 namespace Atributos.Dominio.Entidades
 {
+    [ExcludeFromCodeCoverage]
     public abstract class LocalizacionBase
     {
         public int Idpais { get; set; }
