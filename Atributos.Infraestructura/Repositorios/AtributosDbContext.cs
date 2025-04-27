@@ -17,6 +17,8 @@ namespace Atributos.Infraestructura.Repositorios
         public DbSet<Material> Materiales { get; set; }
         public DbSet<Parametro> Parametros { get; set; }
         public DbSet<TipoDocumento> TiposDocumentos { get; set; }
+        public DbSet<Localizacion> Localizaciones { get; set; }
+        public DbSet<LocalizacionZona> LocalizacionZonas { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -28,6 +30,8 @@ namespace Atributos.Infraestructura.Repositorios
             modelBuilder.ApplyConfiguration(new ModeloConfiguracion());
             modelBuilder.ApplyConfiguration(new ParametroConfiguracion());
             modelBuilder.ApplyConfiguration(new TipoDocumentoConfiguracion());
+            modelBuilder.ApplyConfiguration(new LocalizacionConfiguracion());
+            modelBuilder.ApplyConfiguration(new LocalizacionZonaConfiguracion());
         }
     }
 }

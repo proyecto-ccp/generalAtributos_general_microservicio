@@ -1,15 +1,10 @@
-using Atributos.Aplicacion.Consultas.Ciudades;
-using Atributos.Aplicacion.Consultas.Zonas;
 using Atributos.Dominio.Puertos.Repositorios;
 using Atributos.Dominio.Servicios.AtributosProducto;
-using Atributos.Dominio.Servicios.Ciudades;
+using Atributos.Dominio.Servicios.Localizaciones;
 using Atributos.Dominio.Servicios.Parametros;
 using Atributos.Dominio.Servicios.TiposDocumento;
-using Atributos.Dominio.Servicios.Zonas;
 using Atributos.Infraestructura.RepositorioGenerico;
 using Atributos.Infraestructura.Repositorios;
-using Atributos.Infraestructura.Repositorios.Ciudades;
-using Atributos.Infraestructura.Repositorios.Zonas;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
@@ -74,38 +69,15 @@ builder.Services.AddTransient(typeof(IRepositorioBase<>), typeof(RepositorioBase
 builder.Services.AddTransient<IAtributosProductoRepositorio, AtributosProductoRepositorio>();
 builder.Services.AddTransient<IParametroRepositorio, ParametroRepositorio>();
 builder.Services.AddTransient<ITipoDocumentoRepositorio, TiposDocumentoRepositorio>();
+builder.Services.AddTransient<ILocalizacionRepositorio, LocalizacionRepositorio>();
+builder.Services.AddTransient<IZonaRepositorio, ZonaRepositorio>();
 
 //Capa Dominio - Servicios
 builder.Services.AddTransient<ConsultarAtributos>();
 builder.Services.AddTransient<ConsultarParametros>();
-builder.Services.AddScoped<ListadoTiposDocumento>();
-
-// Ciudades
-builder.Services.AddDbContext<CiudadesDBContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("CiudadesDBContext")));
-// Registrar repositorios específicos
-builder.Services.AddTransient(typeof(IRepositorioBaseCiudades<>), typeof(RepositorioBaseCiudades<>));
-builder.Services.AddTransient<ICiudadRepositorio, CiudadRepositorio>();
-builder.Services.AddScoped<IConsultasCiudades, ManejadorConsultasCiudad>();
-builder.Services.AddScoped<ObtenerCiudad>();
-builder.Services.AddScoped<ListadoCiudades>();
-builder.Services.AddScoped<ListadoCiudadesPorRegion>();
-
-// Zonas
-builder.Services.AddDbContext<ZonasDBContext>(options2 =>
-    options2.UseNpgsql(builder.Configuration.GetConnectionString("ZonasDBContext")));
-// Registrar repositorios específicos
-builder.Services.AddTransient(typeof(IRepositorioBaseZonas<>), typeof(RepositorioBaseZonas<>));
-builder.Services.AddTransient<IZonaRepositorio, ZonaRepositorio>();
-builder.Services.AddScoped<IConsultasZonas, ManejadorConsultasZona>();
-builder.Services.AddScoped<ObtenerZona>();
-builder.Services.AddScoped<ListadoZonas>();
-builder.Services.AddScoped<ListadoZonasPorCiudad>();
-
-
-// Registrar repositorios específicos
-
-
+builder.Services.AddTransient<ListadoTiposDocumento>();
+builder.Services.AddTransient<LocalizarCiudad>();
+builder.Services.AddTransient<LocalizarZona>();
 
 var app = builder.Build();
 

@@ -1,9 +1,12 @@
 ﻿
 using Atributos.Aplicacion.Consultas.AtributosProducto;
+using Atributos.Aplicacion.Consultas.Localizaciones;
 using Atributos.Aplicacion.Consultas.TiposDocumento;
 using Atributos.Aplicacion.Dto;
 using Atributos.Aplicacion.Dto.AtributosProducto;
+using Atributos.Aplicacion.Dto.Ciudades;
 using Atributos.Aplicacion.Dto.TiposDocumento;
+using Atributos.Aplicacion.Dto.Zonas;
 using Atributos.Aplicacion.Enum;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -33,7 +36,6 @@ namespace ServicioAtributos.Controllers
         /// Obtiene la lista del atributo de producto categorias
         /// </summary>
         /// <response code="200"> 
-        /// ListaProductosOut pendiente
         /// </response>
         [HttpGet]
         [Route("Productos/Categorias")]
@@ -63,7 +65,6 @@ namespace ServicioAtributos.Controllers
         /// Obtiene la lista del atributo de producto medidas
         /// </summary>
         /// <response code="200"> 
-        /// ListaProductosOut pendiente
         /// </response>
         [HttpGet]
         [Route("Productos/Medidas")]
@@ -93,7 +94,6 @@ namespace ServicioAtributos.Controllers
         /// Obtiene la lista del atributo de producto marcas
         /// </summary>
         /// <response code="200"> 
-        /// ListaProductosOut pendiente
         /// </response>
         [HttpGet]
         [Route("Productos/Marcas")]
@@ -123,7 +123,6 @@ namespace ServicioAtributos.Controllers
         /// Obtiene la lista del atributo de producto colores
         /// </summary>
         /// <response code="200"> 
-        /// ListaProductosOut pendiente
         /// </response>
         [HttpGet]
         [Route("Productos/Colores")]
@@ -153,7 +152,6 @@ namespace ServicioAtributos.Controllers
         /// Obtiene la lista del atributo de producto modelos
         /// </summary>
         /// <response code="200"> 
-        /// ListaProductosOut pendiente
         /// </response>
         [HttpGet]
         [Route("Productos/Modelos")]
@@ -183,7 +181,6 @@ namespace ServicioAtributos.Controllers
         /// Obtiene la lista del atributo de producto materiales
         /// </summary>
         /// <response code="200"> 
-        /// ListaProductosOut pendiente
         /// </response>
         [HttpGet]
         [Route("Productos/Materiales")]
@@ -235,6 +232,174 @@ namespace ServicioAtributos.Controllers
                 return Problem(output.Mensaje, statusCode: (int)output.Status);
             }
 
+        }
+
+        /// <summary>
+        /// Obtiene el listado de ciudades
+        /// </summary>
+        /// <response code="200"> 
+        /// </response>
+        [HttpGet]
+        [Route("Localizacion/Ciudades")]
+        [ProducesResponseType(typeof(CiudadOutList), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ProblemDetails), 401)]
+        [ProducesResponseType(typeof(BaseOut), 404)]
+        [ProducesResponseType(typeof(ProblemDetails), 500)]
+        public async Task<IActionResult> ObtenerCiudades()
+        {
+            var output = await _mediator.Send(new CiudadesConsulta());
+
+            if (output.Resultado == Resultado.Exitoso)
+            {
+                return Ok(output);
+            }
+            else if (output.Resultado == Resultado.SinRegistros)
+            {
+                return NotFound(new { output.Resultado, output.Mensaje, output.Status });
+            }
+            else
+            {
+                return Problem(output.Mensaje, statusCode: (int)output.Status);
+            }
+        }
+
+        /// <summary>
+        /// Obtiene el listado de ciudades de una región 
+        /// </summary>
+        /// <response code="200"> 
+        /// </response>
+        [HttpGet]
+        [Route("Localizacion/Region/{IdRegion}/Ciudades")]
+        [ProducesResponseType(typeof(CiudadOutList), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ProblemDetails), 401)]
+        [ProducesResponseType(typeof(BaseOut), 404)]
+        [ProducesResponseType(typeof(ProblemDetails), 500)]
+        public async Task<IActionResult> ObtenerCiudadesPorRegion([FromRoute] int IdRegion)
+        {
+            var output = await _mediator.Send(new CiudadPorRegionConsulta(IdRegion));
+
+            if (output.Resultado == Resultado.Exitoso)
+            {
+                return Ok(output);
+            }
+            else if (output.Resultado == Resultado.SinRegistros)
+            {
+                return NotFound(new { output.Resultado, output.Mensaje, output.Status });
+            }
+            else
+            {
+                return Problem(output.Mensaje, statusCode: (int)output.Status);
+            }
+        }
+
+        /// <summary>
+        /// Obtiene una ciudad por su identificador
+        /// </summary>
+        /// <response code="200"> 
+        /// </response>
+        [HttpGet]
+        [Route("Localizacion/Ciudad/{IdCiudad}")]
+        [ProducesResponseType(typeof(CiudadOutList), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ProblemDetails), 401)]
+        [ProducesResponseType(typeof(BaseOut), 404)]
+        [ProducesResponseType(typeof(ProblemDetails), 500)]
+        public async Task<IActionResult> ObtenerCiudadPorId([FromRoute] Guid IdCiudad)
+        {
+            var output = await _mediator.Send(new CiudadPorIdConsulta(IdCiudad));
+
+            if (output.Resultado == Resultado.Exitoso)
+            {
+                return Ok(output);
+            }
+            else if (output.Resultado == Resultado.SinRegistros)
+            {
+                return NotFound(new { output.Resultado, output.Mensaje, output.Status });
+            }
+            else
+            {
+                return Problem(output.Mensaje, statusCode: (int)output.Status);
+            }
+        }
+
+        /// <summary>
+        /// Obtiene el listado de zonas
+        /// </summary>
+        [HttpGet]
+        [Route("Localizacion/Zonas")]
+        [ProducesResponseType(typeof(ZonaOutList), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ProblemDetails), 401)]
+        [ProducesResponseType(typeof(BaseOut), 404)]
+        [ProducesResponseType(typeof(ProblemDetails), 500)]
+        public async Task<IActionResult> ObtenerZonas()
+        {
+            var output = await _mediator.Send(new ZonasConsulta());
+
+            if (output.Resultado == Resultado.Exitoso)
+            {
+                return Ok(output);
+            }
+            else if (output.Resultado == Resultado.SinRegistros)
+            {
+                return NotFound(new { output.Resultado, output.Mensaje, output.Status });
+            }
+            else
+            {
+                return Problem(output.Mensaje, statusCode: (int)output.Status);
+            }
+        }
+
+        /// <summary>
+        /// Obtiene el listado de zonas por ciudad
+        /// </summary>
+        [HttpGet]
+        [Route("Localizacion/Ciudad/{IdCiudad}/Zonas")]
+        [ProducesResponseType(typeof(ZonaOutList), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ProblemDetails), 401)]
+        [ProducesResponseType(typeof(BaseOut), 404)]
+        [ProducesResponseType(typeof(ProblemDetails), 500)]
+        public async Task<IActionResult> ObtenerZonasPorCiudad([FromRoute] Guid IdCiudad)
+        {
+            var output = await _mediator.Send(new ZonasPorCiudadConsulta(IdCiudad));
+
+            if (output.Resultado == Resultado.Exitoso)
+            {
+                return Ok(output);
+            }
+            else if (output.Resultado == Resultado.SinRegistros)
+            {
+                return NotFound(new { output.Resultado, output.Mensaje, output.Status });
+            }
+            else
+            {
+                return Problem(output.Mensaje, statusCode: (int)output.Status);
+            }
+        }
+
+        /// <summary>
+        /// Obtiene una zona por su identificador
+        /// </summary>
+        [HttpGet]
+        [Route("Localizacion/Zona/{IdZona}")]
+        [ProducesResponseType(typeof(ZonaOut), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ProblemDetails), 401)]
+        [ProducesResponseType(typeof(BaseOut), 404)]
+        [ProducesResponseType(typeof(ProblemDetails), 500)]
+        public async Task<IActionResult> ObtenerZonaPorId([FromRoute] Guid IdZona)
+        {
+            var output = await _mediator.Send(new ZonaPorIdConsulta(IdZona));
+
+            if (output.Resultado == Resultado.Exitoso)
+            {
+                return Ok(output);
+            }
+            else if (output.Resultado == Resultado.SinRegistros)
+            {
+                return NotFound(new { output.Resultado, output.Mensaje, output.Status });
+            }
+            else
+            {
+                return Problem(output.Mensaje, statusCode: (int)output.Status);
+            }
         }
     }
 }

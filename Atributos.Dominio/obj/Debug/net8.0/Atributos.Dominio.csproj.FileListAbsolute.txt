@@ -10,3 +10,15 @@ D:\Edward Romero\Documents\MISO\Proyecto Final II\generalAtributos_general_micro
 D:\Edward Romero\Documents\MISO\Proyecto Final II\generalAtributos_general_microservicio\Atributos.Dominio\obj\Debug\net8.0\refint\Atributos.Dominio.dll
 D:\Edward Romero\Documents\MISO\Proyecto Final II\generalAtributos_general_microservicio\Atributos.Dominio\obj\Debug\net8.0\Atributos.Dominio.pdb
 D:\Edward Romero\Documents\MISO\Proyecto Final II\generalAtributos_general_microservicio\Atributos.Dominio\obj\Debug\net8.0\ref\Atributos.Dominio.dll
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Dominio\bin\Debug\net8.0\Atributos.Dominio.deps.json
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Dominio\bin\Debug\net8.0\Atributos.Dominio.dll
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Dominio\bin\Debug\net8.0\Atributos.Dominio.pdb
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Dominio\obj\Debug\net8.0\Atributos.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Dominio\obj\Debug\net8.0\Atributos.Dominio.AssemblyInfoInputs.cache
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Dominio\obj\Debug\net8.0\Atributos.Dominio.AssemblyInfo.cs
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Dominio\obj\Debug\net8.0\Atributos.Dominio.csproj.CoreCompileInputs.cache
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Dominio\obj\Debug\net8.0\Atributos.Dominio.sourcelink.json
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Dominio\obj\Debug\net8.0\Atributos.Dominio.dll
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Dominio\obj\Debug\net8.0\refint\Atributos.Dominio.dll
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Dominio\obj\Debug\net8.0\Atributos.Dominio.pdb
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Dominio\obj\Debug\net8.0\ref\Atributos.Dominio.dll
