@@ -14,3 +14,19 @@ D:\Edward Romero\Documents\MISO\Proyecto Final II\generalAtributos_general_micro
 D:\Edward Romero\Documents\MISO\Proyecto Final II\generalAtributos_general_microservicio\Atributos.Infraestructura\obj\Debug\net8.0\refint\Atributos.Infraestructura.dll
 D:\Edward Romero\Documents\MISO\Proyecto Final II\generalAtributos_general_microservicio\Atributos.Infraestructura\obj\Debug\net8.0\Atributos.Infraestructura.pdb
 D:\Edward Romero\Documents\MISO\Proyecto Final II\generalAtributos_general_microservicio\Atributos.Infraestructura\obj\Debug\net8.0\ref\Atributos.Infraestructura.dll
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Infraestructura\obj\Debug\net8.0\Atributos.Infraestructura.csproj.AssemblyReference.cache
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Infraestructura\obj\Debug\net8.0\Atributos.Infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Infraestructura\obj\Debug\net8.0\Atributos.Infraestructura.AssemblyInfoInputs.cache
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Infraestructura\obj\Debug\net8.0\Atributos.Infraestructura.AssemblyInfo.cs
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Infraestructura\obj\Debug\net8.0\Atributos.Infraestructura.csproj.CoreCompileInputs.cache
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Infraestructura\obj\Debug\net8.0\Atributos.Infraestructura.sourcelink.json
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Infraestructura\bin\Debug\net8.0\Atributos.Infraestructura.deps.json
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Infraestructura\bin\Debug\net8.0\Atributos.Infraestructura.dll
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Infraestructura\bin\Debug\net8.0\Atributos.Infraestructura.pdb
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Infraestructura\bin\Debug\net8.0\Atributos.Dominio.dll
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Infraestructura\bin\Debug\net8.0\Atributos.Dominio.pdb
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Infraestructura\obj\Debug\net8.0\Atributo.A284D92B.Up2Date
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Infraestructura\obj\Debug\net8.0\Atributos.Infraestructura.dll
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Infraestructura\obj\Debug\net8.0\refint\Atributos.Infraestructura.dll
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Infraestructura\obj\Debug\net8.0\Atributos.Infraestructura.pdb
+D:\Git\CCP\generalAtributos_general_microservicio\Atributos.Infraestructura\obj\Debug\net8.0\ref\Atributos.Infraestructura.dll
