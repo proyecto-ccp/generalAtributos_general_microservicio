@@ -3,8 +3,8 @@
 using Atributos.Dominio.Entidades;
 using Atributos.Dominio.Puertos.Repositorios;
 using Atributos.Dominio.Servicios.AtributosProducto;
+using Atributos.Tests.DataTests;
 using Moq;
-using Productos.Tests.DataTests;
 
 namespace Productos.Tests.Dominio
 {

@@ -1,7 +1,7 @@
 ﻿
 using Atributos.Dominio.Entidades;
 
-namespace Productos.Tests.DataTests
+namespace Atributos.Tests.DataTests
 {
     public class CategoriaDataTest : TheoryData<List<Categoria>, int>
     {
