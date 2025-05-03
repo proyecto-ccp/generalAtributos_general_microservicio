@@ -10,11 +10,6 @@ namespace Atributos.Dominio.Servicios.TiposDocumento
         {
             var tiposDocumento = await tipoDocumentoRepositorio.DarListado();
 
-            if (tiposDocumento == null || tiposDocumento.Count == 0)
-            {
-                throw new Exception("No se encontraron tipos de documento.");
-            }
-
             return tiposDocumento;
         }
     }

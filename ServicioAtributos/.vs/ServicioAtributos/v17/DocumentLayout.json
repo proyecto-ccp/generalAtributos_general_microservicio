@@ -3,6 +3,130 @@
   "WorkspaceRootPath": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\ServicioAtributos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BB2A4EC7-82CF-4428-B1E9-F835F7062FA4}|..\\Atributos.Aplicacion\\Atributos.Aplicacion.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.aplicacion\\dto\\baseout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2A4EC7-82CF-4428-B1E9-F835F7062FA4}|..\\Atributos.Aplicacion\\Atributos.Aplicacion.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.aplicacion\\dto\\zonas\\zonadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2A4EC7-82CF-4428-B1E9-F835F7062FA4}|..\\Atributos.Aplicacion\\Atributos.Aplicacion.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.aplicacion\\dto\\tiposdocumento\\tipodocumentoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2A4EC7-82CF-4428-B1E9-F835F7062FA4}|..\\Atributos.Aplicacion\\Atributos.Aplicacion.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.aplicacion\\dto\\tiposdocumento\\tipodocumentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2A4EC7-82CF-4428-B1E9-F835F7062FA4}|..\\Atributos.Aplicacion\\Atributos.Aplicacion.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.aplicacion\\dto\\ciudades\\ciudaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2A4EC7-82CF-4428-B1E9-F835F7062FA4}|..\\Atributos.Aplicacion\\Atributos.Aplicacion.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.aplicacion\\dto\\atributosproducto\\modelodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2A4EC7-82CF-4428-B1E9-F835F7062FA4}|..\\Atributos.Aplicacion\\Atributos.Aplicacion.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.aplicacion\\dto\\atributosproducto\\medidadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2A4EC7-82CF-4428-B1E9-F835F7062FA4}|..\\Atributos.Aplicacion\\Atributos.Aplicacion.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.aplicacion\\dto\\atributosproducto\\materialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2A4EC7-82CF-4428-B1E9-F835F7062FA4}|..\\Atributos.Aplicacion\\Atributos.Aplicacion.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.aplicacion\\dto\\atributosproducto\\marcadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2A4EC7-82CF-4428-B1E9-F835F7062FA4}|..\\Atributos.Aplicacion\\Atributos.Aplicacion.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.aplicacion\\dto\\atributosproducto\\colordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2A4EC7-82CF-4428-B1E9-F835F7062FA4}|..\\Atributos.Aplicacion\\Atributos.Aplicacion.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.aplicacion\\dto\\atributosproducto\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8311C1C7-1E94-4C40-BDF6-E1A14FD42C00}|..\\Atributos.Dominio\\Atributos.Dominio.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.dominio\\entidades\\parametro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8311C1C7-1E94-4C40-BDF6-E1A14FD42C00}|..\\Atributos.Dominio\\Atributos.Dominio.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.dominio\\entidades\\tipodocumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8311C1C7-1E94-4C40-BDF6-E1A14FD42C00}|..\\Atributos.Dominio\\Atributos.Dominio.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.dominio\\entidades\\modelo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8311C1C7-1E94-4C40-BDF6-E1A14FD42C00}|..\\Atributos.Dominio\\Atributos.Dominio.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.dominio\\entidades\\medida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8311C1C7-1E94-4C40-BDF6-E1A14FD42C00}|..\\Atributos.Dominio\\Atributos.Dominio.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.dominio\\entidades\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8311C1C7-1E94-4C40-BDF6-E1A14FD42C00}|..\\Atributos.Dominio\\Atributos.Dominio.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.dominio\\entidades\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8311C1C7-1E94-4C40-BDF6-E1A14FD42C00}|..\\Atributos.Dominio\\Atributos.Dominio.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.dominio\\entidades\\localizacionzona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8311C1C7-1E94-4C40-BDF6-E1A14FD42C00}|..\\Atributos.Dominio\\Atributos.Dominio.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.dominio\\entidades\\localizacionbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8311C1C7-1E94-4C40-BDF6-E1A14FD42C00}|..\\Atributos.Dominio\\Atributos.Dominio.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.dominio\\entidades\\localizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8311C1C7-1E94-4C40-BDF6-E1A14FD42C00}|..\\Atributos.Dominio\\Atributos.Dominio.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.dominio\\entidades\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8311C1C7-1E94-4C40-BDF6-E1A14FD42C00}|..\\Atributos.Dominio\\Atributos.Dominio.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.dominio\\entidades\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8311C1C7-1E94-4C40-BDF6-E1A14FD42C00}|..\\Atributos.Dominio\\Atributos.Dominio.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.dominio\\entidades\\atributobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2262D9BB-47F9-47D8-BD6A-5C0A48AD7598}|..\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.infraestructura\\repositorios\\zonarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2262D9BB-47F9-47D8-BD6A-5C0A48AD7598}|..\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.infraestructura\\repositorios\\tiposdocumentorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2262D9BB-47F9-47D8-BD6A-5C0A48AD7598}|..\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.infraestructura\\repositorios\\parametrorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2262D9BB-47F9-47D8-BD6A-5C0A48AD7598}|..\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.infraestructura\\repositorios\\localizacionrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2262D9BB-47F9-47D8-BD6A-5C0A48AD7598}|..\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.infraestructura\\repositorios\\atributosproductorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2262D9BB-47F9-47D8-BD6A-5C0A48AD7598}|..\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.infraestructura\\repositorios\\atributosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2262D9BB-47F9-47D8-BD6A-5C0A48AD7598}|..\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.infraestructura\\repositoriogenerico\\repositoriobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2262D9BB-47F9-47D8-BD6A-5C0A48AD7598}|..\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.infraestructura\\repositoriogenerico\\irepositoriobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2262D9BB-47F9-47D8-BD6A-5C0A48AD7598}|..\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.infraestructura\\configuraciones\\tipodocumentoconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2262D9BB-47F9-47D8-BD6A-5C0A48AD7598}|..\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.infraestructura\\configuraciones\\parametroconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2262D9BB-47F9-47D8-BD6A-5C0A48AD7598}|..\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.infraestructura\\configuraciones\\modeloconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2262D9BB-47F9-47D8-BD6A-5C0A48AD7598}|..\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.infraestructura\\configuraciones\\medidaconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2262D9BB-47F9-47D8-BD6A-5C0A48AD7598}|..\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.infraestructura\\configuraciones\\materialconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2262D9BB-47F9-47D8-BD6A-5C0A48AD7598}|..\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.infraestructura\\configuraciones\\marcaconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2262D9BB-47F9-47D8-BD6A-5C0A48AD7598}|..\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.infraestructura\\configuraciones\\localizacionzonaconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2262D9BB-47F9-47D8-BD6A-5C0A48AD7598}|..\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.infraestructura\\configuraciones\\localizacionconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2262D9BB-47F9-47D8-BD6A-5C0A48AD7598}|..\\Atributos.Infraestructura\\Atributos.Infraestructura.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.infraestructura\\configuraciones\\colorconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B19C77-AE5E-4B9A-97DD-04311800C9BB}|ServicioAtributos.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\servicioatributos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B19C77-AE5E-4B9A-97DD-04311800C9BB}|ServicioAtributos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BB2A4EC7-82CF-4428-B1E9-F835F7062FA4}|..\\Atributos.Aplicacion\\Atributos.Aplicacion.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\atributos.aplicacion\\consultas\\localizaciones\\zonaporidconsultahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -14,10 +138,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{14B19C77-AE5E-4B9A-97DD-04311800C9BB}|ServicioAtributos.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\servicioatributos\\controllers\\atributoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14B19C77-AE5E-4B9A-97DD-04311800C9BB}|ServicioAtributos.csproj|solutionrelative:controllers\\atributoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14B19C77-AE5E-4B9A-97DD-04311800C9BB}|ServicioAtributos.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\servicioatributos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14B19C77-AE5E-4B9A-97DD-04311800C9BB}|ServicioAtributos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14B19C77-AE5E-4B9A-97DD-04311800C9BB}|ServicioAtributos.csproj|d:\\git\\ccp\\generalatributos_general_microservicio\\servicioatributos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -34,11 +154,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 42,
               "Title": "LocalizacionesConsulta.cs",
               "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Consultas\\Localizaciones\\LocalizacionesConsulta.cs",
               "RelativeDocumentMoniker": "..\\Atributos.Aplicacion\\Consultas\\Localizaciones\\LocalizacionesConsulta.cs",
@@ -47,12 +167,11 @@
               "ViewState": "AgIAAAgAAAAAAAAAAIAwwBEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T00:18:38.894Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 43,
               "Title": "ZonasConsultaHandler.cs",
               "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Consultas\\Localizaciones\\ZonasConsultaHandler.cs",
               "RelativeDocumentMoniker": "..\\Atributos.Aplicacion\\Consultas\\Localizaciones\\ZonasConsultaHandler.cs",
@@ -61,7 +180,526 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAADcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T01:27:26.923Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseOut.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\BaseOut.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Aplicacion\\Dto\\BaseOut.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\BaseOut.cs",
+              "RelativeToolTip": "..\\Atributos.Aplicacion\\Dto\\BaseOut.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:33:20.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ZonaDto.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\Zonas\\ZonaDto.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Aplicacion\\Dto\\Zonas\\ZonaDto.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\Zonas\\ZonaDto.cs",
+              "RelativeToolTip": "..\\Atributos.Aplicacion\\Dto\\Zonas\\ZonaDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:32:53.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TipoDocumentoIn.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\TiposDocumento\\TipoDocumentoIn.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Aplicacion\\Dto\\TiposDocumento\\TipoDocumentoIn.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\TiposDocumento\\TipoDocumentoIn.cs",
+              "RelativeToolTip": "..\\Atributos.Aplicacion\\Dto\\TiposDocumento\\TipoDocumentoIn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:32:41.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TipoDocumentoDto.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\TiposDocumento\\TipoDocumentoDto.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Aplicacion\\Dto\\TiposDocumento\\TipoDocumentoDto.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\TiposDocumento\\TipoDocumentoDto.cs",
+              "RelativeToolTip": "..\\Atributos.Aplicacion\\Dto\\TiposDocumento\\TipoDocumentoDto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA0wBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:32:29.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CiudadDto.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\Ciudades\\CiudadDto.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Aplicacion\\Dto\\Ciudades\\CiudadDto.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\Ciudades\\CiudadDto.cs",
+              "RelativeToolTip": "..\\Atributos.Aplicacion\\Dto\\Ciudades\\CiudadDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:31:58.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ModeloDto.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\AtributosProducto\\ModeloDto.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Aplicacion\\Dto\\AtributosProducto\\ModeloDto.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\AtributosProducto\\ModeloDto.cs",
+              "RelativeToolTip": "..\\Atributos.Aplicacion\\Dto\\AtributosProducto\\ModeloDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:31:49.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MedidaDto.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\AtributosProducto\\MedidaDto.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Aplicacion\\Dto\\AtributosProducto\\MedidaDto.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\AtributosProducto\\MedidaDto.cs",
+              "RelativeToolTip": "..\\Atributos.Aplicacion\\Dto\\AtributosProducto\\MedidaDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:31:43.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MaterialDto.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\AtributosProducto\\MaterialDto.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Aplicacion\\Dto\\AtributosProducto\\MaterialDto.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\AtributosProducto\\MaterialDto.cs",
+              "RelativeToolTip": "..\\Atributos.Aplicacion\\Dto\\AtributosProducto\\MaterialDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:31:36.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MarcaDto.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\AtributosProducto\\MarcaDto.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Aplicacion\\Dto\\AtributosProducto\\MarcaDto.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\AtributosProducto\\MarcaDto.cs",
+              "RelativeToolTip": "..\\Atributos.Aplicacion\\Dto\\AtributosProducto\\MarcaDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:31:32.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ColorDto.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\AtributosProducto\\ColorDto.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Aplicacion\\Dto\\AtributosProducto\\ColorDto.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\AtributosProducto\\ColorDto.cs",
+              "RelativeToolTip": "..\\Atributos.Aplicacion\\Dto\\AtributosProducto\\ColorDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:31:27.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoriaDto.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\AtributosProducto\\CategoriaDto.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Aplicacion\\Dto\\AtributosProducto\\CategoriaDto.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Dto\\AtributosProducto\\CategoriaDto.cs",
+              "RelativeToolTip": "..\\Atributos.Aplicacion\\Dto\\AtributosProducto\\CategoriaDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:31:22.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TipoDocumento.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\TipoDocumento.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Dominio\\Entidades\\TipoDocumento.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\TipoDocumento.cs",
+              "RelativeToolTip": "..\\Atributos.Dominio\\Entidades\\TipoDocumento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:30:06.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Parametro.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\Parametro.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Dominio\\Entidades\\Parametro.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\Parametro.cs",
+              "RelativeToolTip": "..\\Atributos.Dominio\\Entidades\\Parametro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:30:03.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Modelo.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\Modelo.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Dominio\\Entidades\\Modelo.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\Modelo.cs",
+              "RelativeToolTip": "..\\Atributos.Dominio\\Entidades\\Modelo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:30:01.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Medida.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\Medida.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Dominio\\Entidades\\Medida.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\Medida.cs",
+              "RelativeToolTip": "..\\Atributos.Dominio\\Entidades\\Medida.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:29:58.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Material.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\Material.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Dominio\\Entidades\\Material.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\Material.cs",
+              "RelativeToolTip": "..\\Atributos.Dominio\\Entidades\\Material.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:29:56.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Marca.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\Marca.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Dominio\\Entidades\\Marca.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\Marca.cs",
+              "RelativeToolTip": "..\\Atributos.Dominio\\Entidades\\Marca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:29:53.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LocalizacionZona.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\LocalizacionZona.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Dominio\\Entidades\\LocalizacionZona.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\LocalizacionZona.cs",
+              "RelativeToolTip": "..\\Atributos.Dominio\\Entidades\\LocalizacionZona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:29:48.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LocalizacionBase.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\LocalizacionBase.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Dominio\\Entidades\\LocalizacionBase.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\LocalizacionBase.cs",
+              "RelativeToolTip": "..\\Atributos.Dominio\\Entidades\\LocalizacionBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:29:43.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Localizacion.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\Localizacion.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Dominio\\Entidades\\Localizacion.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\Localizacion.cs",
+              "RelativeToolTip": "..\\Atributos.Dominio\\Entidades\\Localizacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:29:36.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Color.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\Color.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Dominio\\Entidades\\Color.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\Color.cs",
+              "RelativeToolTip": "..\\Atributos.Dominio\\Entidades\\Color.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:29:20.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\Categoria.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Dominio\\Entidades\\Categoria.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\Categoria.cs",
+              "RelativeToolTip": "..\\Atributos.Dominio\\Entidades\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:29:17.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AtributoBase.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\AtributoBase.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Dominio\\Entidades\\AtributoBase.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Dominio\\Entidades\\AtributoBase.cs",
+              "RelativeToolTip": "..\\Atributos.Dominio\\Entidades\\AtributoBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:29:14.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ZonaRepositorio.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Repositorios\\ZonaRepositorio.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Infraestructura\\Repositorios\\ZonaRepositorio.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Repositorios\\ZonaRepositorio.cs",
+              "RelativeToolTip": "..\\Atributos.Infraestructura\\Repositorios\\ZonaRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:28:20.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TiposDocumentoRepositorio.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Repositorios\\TiposDocumentoRepositorio.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Infraestructura\\Repositorios\\TiposDocumentoRepositorio.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Repositorios\\TiposDocumentoRepositorio.cs",
+              "RelativeToolTip": "..\\Atributos.Infraestructura\\Repositorios\\TiposDocumentoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:28:16.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ParametroRepositorio.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Repositorios\\ParametroRepositorio.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Infraestructura\\Repositorios\\ParametroRepositorio.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Repositorios\\ParametroRepositorio.cs",
+              "RelativeToolTip": "..\\Atributos.Infraestructura\\Repositorios\\ParametroRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:28:12.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LocalizacionRepositorio.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Repositorios\\LocalizacionRepositorio.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Infraestructura\\Repositorios\\LocalizacionRepositorio.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Repositorios\\LocalizacionRepositorio.cs",
+              "RelativeToolTip": "..\\Atributos.Infraestructura\\Repositorios\\LocalizacionRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:28:07.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AtributosProductoRepositorio.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Repositorios\\AtributosProductoRepositorio.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Infraestructura\\Repositorios\\AtributosProductoRepositorio.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Repositorios\\AtributosProductoRepositorio.cs",
+              "RelativeToolTip": "..\\Atributos.Infraestructura\\Repositorios\\AtributosProductoRepositorio.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:28:00.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AtributosDbContext.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Repositorios\\AtributosDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Infraestructura\\Repositorios\\AtributosDbContext.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Repositorios\\AtributosDbContext.cs",
+              "RelativeToolTip": "..\\Atributos.Infraestructura\\Repositorios\\AtributosDbContext.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:27:52.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RepositorioBase.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\RepositorioGenerico\\RepositorioBase.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Infraestructura\\RepositorioGenerico\\RepositorioBase.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\RepositorioGenerico\\RepositorioBase.cs",
+              "RelativeToolTip": "..\\Atributos.Infraestructura\\RepositorioGenerico\\RepositorioBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:27:47.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IRepositorioBase.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\RepositorioGenerico\\IRepositorioBase.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Infraestructura\\RepositorioGenerico\\IRepositorioBase.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\RepositorioGenerico\\IRepositorioBase.cs",
+              "RelativeToolTip": "..\\Atributos.Infraestructura\\RepositorioGenerico\\IRepositorioBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:27:44.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TipoDocumentoConfiguracion.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Configuraciones\\TipoDocumentoConfiguracion.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Infraestructura\\Configuraciones\\TipoDocumentoConfiguracion.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Configuraciones\\TipoDocumentoConfiguracion.cs",
+              "RelativeToolTip": "..\\Atributos.Infraestructura\\Configuraciones\\TipoDocumentoConfiguracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:27:13.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ParametroConfiguracion.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Configuraciones\\ParametroConfiguracion.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Infraestructura\\Configuraciones\\ParametroConfiguracion.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Configuraciones\\ParametroConfiguracion.cs",
+              "RelativeToolTip": "..\\Atributos.Infraestructura\\Configuraciones\\ParametroConfiguracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:27:11.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ModeloConfiguracion.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Configuraciones\\ModeloConfiguracion.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Infraestructura\\Configuraciones\\ModeloConfiguracion.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Configuraciones\\ModeloConfiguracion.cs",
+              "RelativeToolTip": "..\\Atributos.Infraestructura\\Configuraciones\\ModeloConfiguracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:27:09.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MedidaConfiguracion.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Configuraciones\\MedidaConfiguracion.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Infraestructura\\Configuraciones\\MedidaConfiguracion.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Configuraciones\\MedidaConfiguracion.cs",
+              "RelativeToolTip": "..\\Atributos.Infraestructura\\Configuraciones\\MedidaConfiguracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:27:06.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MaterialConfiguracion.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Configuraciones\\MaterialConfiguracion.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Infraestructura\\Configuraciones\\MaterialConfiguracion.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Configuraciones\\MaterialConfiguracion.cs",
+              "RelativeToolTip": "..\\Atributos.Infraestructura\\Configuraciones\\MaterialConfiguracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:27:03.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MarcaConfiguracion.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Configuraciones\\MarcaConfiguracion.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Infraestructura\\Configuraciones\\MarcaConfiguracion.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Configuraciones\\MarcaConfiguracion.cs",
+              "RelativeToolTip": "..\\Atributos.Infraestructura\\Configuraciones\\MarcaConfiguracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:27:01.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LocalizacionZonaConfiguracion.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Configuraciones\\LocalizacionZonaConfiguracion.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Infraestructura\\Configuraciones\\LocalizacionZonaConfiguracion.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Configuraciones\\LocalizacionZonaConfiguracion.cs",
+              "RelativeToolTip": "..\\Atributos.Infraestructura\\Configuraciones\\LocalizacionZonaConfiguracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:26:58.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LocalizacionConfiguracion.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Configuraciones\\LocalizacionConfiguracion.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Infraestructura\\Configuraciones\\LocalizacionConfiguracion.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Configuraciones\\LocalizacionConfiguracion.cs",
+              "RelativeToolTip": "..\\Atributos.Infraestructura\\Configuraciones\\LocalizacionConfiguracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:26:55.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ColorConfiguracion.cs",
+              "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Configuraciones\\ColorConfiguracion.cs",
+              "RelativeDocumentMoniker": "..\\Atributos.Infraestructura\\Configuraciones\\ColorConfiguracion.cs",
+              "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Infraestructura\\Configuraciones\\ColorConfiguracion.cs",
+              "RelativeToolTip": "..\\Atributos.Infraestructura\\Configuraciones\\ColorConfiguracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T22:26:53.454Z",
               "EditorCaption": ""
             },
             {
@@ -70,7 +708,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 40,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\ServicioAtributos\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -83,7 +721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 45,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\ServicioAtributos\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -91,12 +729,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-27T01:44:40.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T01:44:40.028Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 44,
               "Title": "AtributosController.cs",
               "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\ServicioAtributos\\Controllers\\AtributosController.cs",
               "RelativeDocumentMoniker": "Controllers\\AtributosController.cs",
@@ -104,25 +741,24 @@
               "RelativeToolTip": "Controllers\\AtributosController.cs",
               "ViewState": "AgIAAHUBAAAAAAAAAAAuwIcBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T01:44:38.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T01:44:38.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 41,
               "Title": "ZonaPorIdConsultaHandler.cs",
               "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Consultas\\Localizaciones\\ZonaPorIdConsultaHandler.cs",
               "RelativeDocumentMoniker": "..\\Atributos.Aplicacion\\Consultas\\Localizaciones\\ZonaPorIdConsultaHandler.cs",
               "ToolTip": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Consultas\\Localizaciones\\ZonaPorIdConsultaHandler.cs",
               "RelativeToolTip": "..\\Atributos.Aplicacion\\Consultas\\Localizaciones\\ZonaPorIdConsultaHandler.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAYwCEAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T01:29:54.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 46,
               "Title": "ZonasPorCiudadConsultaHandler.cs",
               "DocumentMoniker": "D:\\Git\\CCP\\generalAtributos_general_microservicio\\Atributos.Aplicacion\\Consultas\\Localizaciones\\ZonasPorCiudadConsultaHandler.cs",
               "RelativeDocumentMoniker": "..\\Atributos.Aplicacion\\Consultas\\Localizaciones\\ZonasPorCiudadConsultaHandler.cs",
@@ -130,8 +766,7 @@
               "RelativeToolTip": "..\\Atributos.Aplicacion\\Consultas\\Localizaciones\\ZonasPorCiudadConsultaHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T01:29:16.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T01:29:16.897Z"
             }
           ]
         }

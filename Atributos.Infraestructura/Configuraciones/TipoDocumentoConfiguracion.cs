@@ -2,9 +2,11 @@
 using Atributos.Dominio.Entidades;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Atributos.Infraestructura.Configuraciones
 {
+    [ExcludeFromCodeCoverage]
     public class TipoDocumentoConfiguracion : IEntityTypeConfiguration<TipoDocumento>
     {
         public void Configure(EntityTypeBuilder<TipoDocumento> builder)

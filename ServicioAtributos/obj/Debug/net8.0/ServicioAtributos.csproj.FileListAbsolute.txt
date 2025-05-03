@@ -111,7 +111,6 @@ D:\Git\CCP\generalAtributos_general_microservicio\ServicioAtributos\obj\Debug\ne
 D:\Git\CCP\generalAtributos_general_microservicio\ServicioAtributos\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ServicioAtributos.props
 D:\Git\CCP\generalAtributos_general_microservicio\ServicioAtributos\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ServicioAtributos.props
 D:\Git\CCP\generalAtributos_general_microservicio\ServicioAtributos\obj\Debug\net8.0\staticwebassets.pack.json
-D:\Git\CCP\generalAtributos_general_microservicio\ServicioAtributos\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Git\CCP\generalAtributos_general_microservicio\ServicioAtributos\obj\Debug\net8.0\Servicio.A820CD94.Up2Date
 D:\Git\CCP\generalAtributos_general_microservicio\ServicioAtributos\obj\Debug\net8.0\ServicioAtributos.dll
 D:\Git\CCP\generalAtributos_general_microservicio\ServicioAtributos\obj\Debug\net8.0\refint\ServicioAtributos.dll
