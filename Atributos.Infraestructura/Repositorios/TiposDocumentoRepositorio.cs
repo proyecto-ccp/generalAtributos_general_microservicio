@@ -1,9 +1,11 @@
 ﻿using Atributos.Dominio.Entidades;
 using Atributos.Dominio.Puertos.Repositorios;
 using Atributos.Infraestructura.RepositorioGenerico;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Atributos.Infraestructura.Repositorios
 {
+    [ExcludeFromCodeCoverage]
     public class TiposDocumentoRepositorio: ITipoDocumentoRepositorio
     {
         private readonly IRepositorioBase<TipoDocumento> _tipoDocumento;
