@@ -28,7 +28,7 @@ builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new OpenApiInfo
     {
-        Version = "V.1.0.1",
+        Version = "V.1.2.1",
         Title = "Servicio Atributos",
         Description = "Administración de atributos y parámetros"
     });
@@ -78,6 +78,7 @@ builder.Services.AddTransient<ConsultarParametros>();
 builder.Services.AddTransient<ListadoTiposDocumento>();
 builder.Services.AddTransient<LocalizarCiudad>();
 builder.Services.AddTransient<LocalizarZona>();
+builder.Services.AddTransient<LocalizarPais>();
 
 var app = builder.Build();
 

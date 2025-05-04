@@ -1,5 +1,6 @@
 ﻿
 using Atributos.Aplicacion.Dto.Ciudades;
+using Atributos.Aplicacion.Dto.Pais;
 using Atributos.Aplicacion.Dto.Zonas;
 using MediatR;
 using System.Diagnostics.CodeAnalysis;
@@ -17,4 +18,7 @@ namespace Atributos.Aplicacion.Consultas.Localizaciones
     public record ZonasPorCiudadConsulta(Guid IdCiudad) : IRequest<ZonaOutList>;
     public record ZonaPorIdConsulta(Guid Id) : IRequest<ZonaOut>;
 
+    /// Consultas paises 
+    public record PaisesConsulta : IRequest<PaisOutList>;
+    public record PaisPorIdConsulta(int Id) : IRequest<PaisOut>;
 }
