@@ -25,6 +25,7 @@ namespace Atributos.Infraestructura.Configuraciones
             builder.Property(c => c.Region).HasColumnName("region");
             builder.Property(c => c.Idciudad).HasColumnName("idciudad");
             builder.Property(c => c.Ciudad).HasColumnName("ciudad");
+            builder.Property(c => c.Indicativo).HasColumnName("indicativo");
         }
     }
 }

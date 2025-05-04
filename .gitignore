@@ -70,3 +70,4 @@ nunit-*.xml
 /.vs
 /ServicioAtributos/.vs
 /ServicioAtributos/obj
+/ServicioAtributos/.vs

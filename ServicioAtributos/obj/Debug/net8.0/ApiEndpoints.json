@@ -130,6 +130,90 @@
   },
   {
     "ContainingType": "ServicioAtributos.Controllers.AtributosController",
+    "Method": "ObtenerPaises",
+    "RelativePath": "api/Atributos/Localizacion/Paises",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Atributos.Aplicacion.Dto.Pais.PaisOutList",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Atributos.Aplicacion.Dto.BaseOut",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServicioAtributos.Controllers.AtributosController",
+    "Method": "ObtenerCiudadPorId",
+    "RelativePath": "api/Atributos/Localizacion/Paises/{IdPais}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdPais",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Atributos.Aplicacion.Dto.Pais.PaisOutList",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 401
+      },
+      {
+        "Type": "Atributos.Aplicacion.Dto.BaseOut",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "ServicioAtributos.Controllers.AtributosController",
     "Method": "ObtenerCiudadesPorRegion",
     "RelativePath": "api/Atributos/Localizacion/Region/{IdRegion}/Ciudades",
     "HttpMethod": "GET",
