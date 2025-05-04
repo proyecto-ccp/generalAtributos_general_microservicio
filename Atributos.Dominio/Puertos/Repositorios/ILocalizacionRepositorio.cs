@@ -9,5 +9,7 @@ namespace Atributos.Dominio.Puertos.Repositorios
         Task<Localizacion> ObtenerCiudadPorId(Guid id);
         Task<List<Localizacion>> ObtenerCiudades();
         Task<List<Localizacion>> ObtenerCiudadesPorRegion(int idRegion);
+        Task<List<Pais>> ObtenerPaises();
+        Task<Pais> ObtenerPaisPorId(int id);
     }
 }
