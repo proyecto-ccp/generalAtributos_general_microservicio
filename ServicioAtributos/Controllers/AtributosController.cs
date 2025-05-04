@@ -5,6 +5,7 @@ using Atributos.Aplicacion.Consultas.TiposDocumento;
 using Atributos.Aplicacion.Dto;
 using Atributos.Aplicacion.Dto.AtributosProducto;
 using Atributos.Aplicacion.Dto.Ciudades;
+using Atributos.Aplicacion.Dto.Pais;
 using Atributos.Aplicacion.Dto.TiposDocumento;
 using Atributos.Aplicacion.Dto.Zonas;
 using Atributos.Aplicacion.Enum;
@@ -387,6 +388,64 @@ namespace ServicioAtributos.Controllers
         public async Task<IActionResult> ObtenerZonaPorId([FromRoute] Guid IdZona)
         {
             var output = await _mediator.Send(new ZonaPorIdConsulta(IdZona));
+
+            if (output.Resultado == Resultado.Exitoso)
+            {
+                return Ok(output);
+            }
+            else if (output.Resultado == Resultado.SinRegistros)
+            {
+                return NotFound(new { output.Resultado, output.Mensaje, output.Status });
+            }
+            else
+            {
+                return Problem(output.Mensaje, statusCode: (int)output.Status);
+            }
+        }
+
+        /// <summary>
+        /// Obtiene el listado de paises
+        /// </summary>
+        /// <response code="200"> 
+        /// </response>
+        [HttpGet]
+        [Route("Localizacion/Paises")]
+        [ProducesResponseType(typeof(PaisOutList), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ProblemDetails), 401)]
+        [ProducesResponseType(typeof(BaseOut), 404)]
+        [ProducesResponseType(typeof(ProblemDetails), 500)]
+        public async Task<IActionResult> ObtenerPaises()
+        {
+            var output = await _mediator.Send(new PaisesConsulta());
+
+            if (output.Resultado == Resultado.Exitoso)
+            {
+                return Ok(output);
+            }
+            else if (output.Resultado == Resultado.SinRegistros)
+            {
+                return NotFound(new { output.Resultado, output.Mensaje, output.Status });
+            }
+            else
+            {
+                return Problem(output.Mensaje, statusCode: (int)output.Status);
+            }
+        }
+
+        /// <summary>
+        /// Obtiene un pais por su identificador unico
+        /// </summary>
+        /// <response code="200"> 
+        /// </response>
+        [HttpGet]
+        [Route("Localizacion/Paises/{IdPais}")]
+        [ProducesResponseType(typeof(PaisOutList), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ProblemDetails), 401)]
+        [ProducesResponseType(typeof(BaseOut), 404)]
+        [ProducesResponseType(typeof(ProblemDetails), 500)]
+        public async Task<IActionResult> ObtenerCiudadPorId([FromRoute] int IdPais)
+        {
+            var output = await _mediator.Send(new PaisPorIdConsulta(IdPais));
 
             if (output.Resultado == Resultado.Exitoso)
             {

@@ -17,5 +17,6 @@ namespace Atributos.Dominio.Entidades
         public string Region { get; set; }
         public Guid Idciudad { get; set; }
         public string Ciudad { get; set; }
+        public string Indicativo { get; set; }
     }
 }

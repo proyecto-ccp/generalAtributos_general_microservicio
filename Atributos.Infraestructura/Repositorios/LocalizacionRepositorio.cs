@@ -29,5 +29,39 @@ namespace Atributos.Infraestructura.Repositorios
         {
             return await _localizacion.BuscarPorCampos(x => x.Idciudad == id);
         }
+
+        public async Task<List<Pais>> ObtenerPaises()
+        {
+            var registros = await _localizacion.DarListado();
+
+            return registros.Select(x => new Pais 
+            {
+                Id = x.Idpais,
+                Nombre = x.NombrePais,
+                IdIdioma = x.Ididioma,
+                Idioma = x.NombreIdioma,
+                IdMoneda = x.Idmoneda,
+                Moneda = x.Moneda,
+                AcronimoMoneda = x.AcronimoMoneda,
+                Indicativo = x.Indicativo
+            }).GroupBy(x => x.Id).Select(g => g.First()).ToList();
+        }
+
+        public async Task<Pais> ObtenerPaisPorId(int id)
+        {
+            var registros = await _localizacion.DarListadoPorCampos(x => x.Idpais == id);
+
+            return registros.Select(x => new Pais
+            {
+                Id = x.Idpais,
+                Nombre = x.NombrePais,
+                IdIdioma = x.Ididioma,
+                Idioma = x.NombreIdioma,
+                IdMoneda = x.Idmoneda,
+                Moneda = x.Moneda,
+                AcronimoMoneda = x.AcronimoMoneda,
+                Indicativo = x.Indicativo
+            }).FirstOrDefault();
+        }
     }
 }

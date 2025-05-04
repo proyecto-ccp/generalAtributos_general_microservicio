@@ -118,3 +118,4 @@ D:\Git\CCP\generalAtributos_general_microservicio\ServicioAtributos\obj\Debug\ne
 D:\Git\CCP\generalAtributos_general_microservicio\ServicioAtributos\obj\Debug\net8.0\ServicioAtributos.pdb
 D:\Git\CCP\generalAtributos_general_microservicio\ServicioAtributos\obj\Debug\net8.0\ServicioAtributos.genruntimeconfig.cache
 D:\Git\CCP\generalAtributos_general_microservicio\ServicioAtributos\obj\Debug\net8.0\ref\ServicioAtributos.dll
+D:\Git\CCP\generalAtributos_general_microservicio\ServicioAtributos\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
